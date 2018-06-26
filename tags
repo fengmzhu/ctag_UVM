@@ -4,11 +4,184 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+ARGV_STACK_PTR_SIZE	src/dpi/uvm_svcmd_dpi.c	/^#define ARGV_STACK_PTR_SIZE /;"	d	file:
+M_FIELD_QDA_ENUM	src/macros/uvm_object_defines.svh	/^`define M_FIELD_QDA_ENUM(TYPE,T,ARG,FLAG) \\$/;"	d
+M_UVM_ARRAY_RESIZE	src/macros/uvm_object_defines.svh	/^`define M_UVM_ARRAY_RESIZE(ARG,VAL) \\$/;"	d
+M_UVM_DEBUG	src/dpi/uvm_dpi.h	/^static const int M_UVM_DEBUG = 500;$/;"	v
+M_UVM_ERROR	src/dpi/uvm_dpi.h	/^static const int M_UVM_ERROR = 2;$/;"	v
+M_UVM_FATAL	src/dpi/uvm_dpi.h	/^static const int M_UVM_FATAL = 3;$/;"	v
+M_UVM_FIELD_DATA_AA_enum_key	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_enum_key(KEY, ARG, FLAG) \\$/;"	d
+M_UVM_FIELD_DATA_AA_generic	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_generic(TYPE, KEY, ARG, FLAG) \\$/;"	d
+M_UVM_FIELD_DATA_AA_int_key	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_int_key(KEY, ARG, FLAG) \\$/;"	d
+M_UVM_FIELD_DATA_AA_int_string	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_int_string(ARG, FLAG) \\$/;"	d
+M_UVM_FIELD_DATA_AA_object_int	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_object_int(ARG, FLAG) \\$/;"	d
+M_UVM_FIELD_DATA_AA_object_string	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_object_string(ARG, FLAG) \\$/;"	d
+M_UVM_FIELD_DATA_AA_string_string	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_string_string(ARG, FLAG) \\$/;"	d
+M_UVM_FIELD_QDA_INT	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_QDA_INT(TYPE,ARG,FLAG) \\$/;"	d
+M_UVM_FIELD_QDA_OBJECT	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_QDA_OBJECT(TYPE,ARG,FLAG) \\$/;"	d
+M_UVM_FIELD_QDA_STRING	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_QDA_STRING(TYPE,ARG,FLAG) \\$/;"	d
+M_UVM_FIELD_SET_AA_INT_ENUMTYPE	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_SET_AA_INT_ENUMTYPE(INDEX_TYPE, ARRAY_TYPE, ARRAY, RHS, FLAG) \\$/;"	d
+M_UVM_FIELD_SET_AA_INT_TYPE	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_SET_AA_INT_TYPE(INDEX_TYPE, ARRAY_TYPE, ARRAY, RHS, FLAG) \\$/;"	d
+M_UVM_FIELD_SET_AA_OBJECT_TYPE	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_SET_AA_OBJECT_TYPE(INDEX_TYPE, ARRAY, FLAG) \\$/;"	d
+M_UVM_FIELD_SET_AA_TYPE	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_SET_AA_TYPE(INDEX_TYPE, ARRAY_TYPE, ARRAY, RHS, FLAG) \\$/;"	d
+M_UVM_FULL	src/dpi/uvm_dpi.h	/^static const int M_UVM_FULL = 400;$/;"	v
+M_UVM_HIGH	src/dpi/uvm_dpi.h	/^static const int M_UVM_HIGH = 300;$/;"	v
+M_UVM_INFO	src/dpi/uvm_dpi.h	/^static const int M_UVM_INFO = 0;$/;"	v
+M_UVM_LOW	src/dpi/uvm_dpi.h	/^static const int M_UVM_LOW = 100;$/;"	v
+M_UVM_MEDIUM	src/dpi/uvm_dpi.h	/^static const int M_UVM_MEDIUM = 200;$/;"	v
+M_UVM_NONE	src/dpi/uvm_dpi.h	/^static const int M_UVM_NONE = 0;$/;"	v
+M_UVM_QUEUE_RESIZE	src/macros/uvm_object_defines.svh	/^`define M_UVM_QUEUE_RESIZE(ARG,VAL) \\$/;"	d
+M_UVM_SARRAY_RESIZE	src/macros/uvm_object_defines.svh	/^`define M_UVM_SARRAY_RESIZE(ARG,VAL) \\$/;"	d
+M_UVM_WARNING	src/dpi/uvm_dpi.h	/^static const int M_UVM_WARNING = 1;$/;"	v
 PREFIX	src/macros/uvm_phase_defines.svh	/^        class PREFIX``PHASE``_phase extends uvm_bottomup_phase; \\$/;"	c
 PREFIX	src/macros/uvm_phase_defines.svh	/^        class PREFIX``PHASE``_phase extends uvm_task_phase; \\$/;"	c
 PREFIX	src/macros/uvm_phase_defines.svh	/^        class PREFIX``PHASE``_phase extends uvm_topdown_phase; \\$/;"	c
+QUESTA	src/uvm_macros.svh	/^`define QUESTA$/;"	d
+UVM_BASE_SVH	src/base/uvm_base.svh	/^`define UVM_BASE_SVH$/;"	d
+UVM_BLOCKING_GET_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_GET_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_BLOCKING_GET_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_BLOCKING_GET_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
+UVM_BLOCKING_GET_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_GET_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_BLOCKING_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_BLOCKING_PEEK_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_BLOCKING_PEEK_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
+UVM_BLOCKING_PUT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_PUT_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_BLOCKING_PUT_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_BLOCKING_PUT_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
+UVM_BLOCKING_TRANSPORT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_TRANSPORT_IMP(imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
+UVM_BLOCKING_TRANSPORT_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_BLOCKING_TRANSPORT_IMP_SFX(SFX, imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
+UVM_CALLBACK_SVH	src/base/uvm_callback.svh	/^`define UVM_CALLBACK_SVH$/;"	d
+UVM_CB_MACROS_SVH	src/macros/uvm_callback_defines.svh	/^`define UVM_CB_MACROS_SVH$/;"	d
+UVM_CMDLINE_NO_DPI	src/dpi/uvm_dpi.svh	/^  `define UVM_CMDLINE_NO_DPI$/;"	d
+UVM_CMDLINE_PROCESSOR_SV	src/base/uvm_cmdline_processor.svh	/^`define UVM_CMDLINE_PROCESSOR_SV$/;"	d
+UVM_CORESERVICE_TYPE	src/base/uvm_coreservice.svh	/^`define UVM_CORESERVICE_TYPE uvm_default_coreservice_t$/;"	d
+UVM_DAP_SVH	src/dap/uvm_dap.svh	/^ `define UVM_DAP_SVH$/;"	d
+UVM_DEFAULT_TIMEOUT	src/macros/uvm_global_defines.svh	/^`define UVM_DEFAULT_TIMEOUT 9200s$/;"	d
+UVM_DEPRECATED_STARTING_PHASE	src/seq/uvm_sequence_base.svh	/^ `define UVM_DEPRECATED_STARTING_PHASE$/;"	d
+UVM_DPI_SVH	src/dpi/uvm_dpi.svh	/^`define UVM_DPI_SVH$/;"	d
+UVM_DPI__H	src/dpi/uvm_dpi.h	/^#define UVM_DPI__H$/;"	d
+UVM_EXPORT_COMMON	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_EXPORT_COMMON(MASK,TYPE_NAME) \\$/;"	d
 UVM_FILE	src/base/uvm_object_globals.svh	/^typedef int UVM_FILE;$/;"	e
+UVM_FUNCTION_ERROR	src/tlm1/uvm_tlm_ifs.svh	/^`define UVM_FUNCTION_ERROR "TLM interface function not implemented"$/;"	d
+UVM_GET_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_GET_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_GET_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_GET_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_GLOBAL_DEFINES_SVH	src/macros/uvm_global_defines.svh	/^`define UVM_GLOBAL_DEFINES_SVH$/;"	d
+UVM_HDL_MAX_WIDTH	src/dpi/uvm_hdl.svh	/^`define UVM_HDL_MAX_WIDTH 1024$/;"	d
+UVM_HDL_MAX_WIDTH	src/dpi/uvm_hdl_inca.c	/^static int UVM_HDL_MAX_WIDTH = 0;$/;"	v	file:
+UVM_HDL_NO_DPI	src/dpi/uvm_dpi.svh	/^  `define UVM_HDL_NO_DPI$/;"	d
+UVM_HDL__SVH	src/dpi/uvm_hdl.svh	/^`define UVM_HDL__SVH$/;"	d
+UVM_HEARTBEAT_SVH	src/base/uvm_heartbeat.svh	/^`define UVM_HEARTBEAT_SVH$/;"	d
+UVM_IMP_COMMON	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_IMP_COMMON(MASK,TYPE_NAME,IMP) \\$/;"	d
+UVM_LINE_WIDTH	src/macros/uvm_message_defines.svh	/^  `define UVM_LINE_WIDTH 120$/;"	d
+UVM_MACROS_SVH	src/uvm_macros.svh	/^`define UVM_MACROS_SVH$/;"	d
+UVM_MAJOR_REV	src/macros/uvm_version_defines.svh	/^`define UVM_MAJOR_REV 1$/;"	d
+UVM_MAJOR_REV_1	src/macros/uvm_version_defines.svh	/^`define UVM_MAJOR_REV_1$/;"	d
+UVM_MAJOR_VERSION_1_2	src/macros/uvm_version_defines.svh	/^`define UVM_MAJOR_VERSION_1_2$/;"	d
+UVM_MAX_STREAMBITS	src/macros/uvm_global_defines.svh	/^ `define UVM_MAX_STREAMBITS 4096$/;"	d
+UVM_MEM_MAM__SV	src/reg/uvm_mem_mam.svh	/^`define UVM_MEM_MAM__SV$/;"	d
+UVM_MESSAGE_DEFINES_SVH	src/macros/uvm_message_defines.svh	/^`define UVM_MESSAGE_DEFINES_SVH$/;"	d
+UVM_MINOR_REV	src/macros/uvm_version_defines.svh	/^`define UVM_MINOR_REV 2$/;"	d
+UVM_MINOR_REV_2	src/macros/uvm_version_defines.svh	/^`define UVM_MINOR_REV_2$/;"	d
+UVM_MS_IMP_COMMON	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_MS_IMP_COMMON(MASK,TYPE_NAME) \\$/;"	d
+UVM_NAME	src/macros/uvm_version_defines.svh	/^`define UVM_NAME UVM$/;"	d
+UVM_NONBLOCKING_GET_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_GET_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_NONBLOCKING_GET_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_NONBLOCKING_GET_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
+UVM_NONBLOCKING_GET_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_GET_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_NONBLOCKING_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_NONBLOCKING_PEEK_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_NONBLOCKING_PEEK_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
+UVM_NONBLOCKING_PUT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_PUT_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_NONBLOCKING_PUT_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_NONBLOCKING_PUT_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
+UVM_NONBLOCKING_TRANSPORT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_TRANSPORT_IMP(imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
+UVM_NONBLOCKING_TRANSPORT_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_NONBLOCKING_TRANSPORT_IMP_SFX(SFX, imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
+UVM_NO_REGISTERED_CONVERTER	src/macros/uvm_object_defines.svh	/^  `define UVM_NO_REGISTERED_CONVERTER$/;"	d
+UVM_NUM_LINES	src/macros/uvm_message_defines.svh	/^  `define UVM_NUM_LINES 120$/;"	d
+UVM_OBJECTION_SVH	src/base/uvm_objection.svh	/^`define UVM_OBJECTION_SVH$/;"	d
+UVM_OBJECT_DEFINES_SVH	src/macros/uvm_object_defines.svh	/^`define UVM_OBJECT_DEFINES_SVH$/;"	d
+UVM_PACKER_MAX_BYTES	src/macros/uvm_global_defines.svh	/^ `define UVM_PACKER_MAX_BYTES `UVM_MAX_STREAMBITS$/;"	d
+UVM_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_PHASE_DEFINES_SVH	src/macros/uvm_phase_defines.svh	/^`define UVM_PHASE_DEFINES_SVH$/;"	d
+UVM_PH_TRACE	src/base/uvm_phase.svh	/^`define UVM_PH_TRACE(ID,MSG,PH,VERB) \\$/;"	d
+UVM_PKG_SV	src/uvm_pkg.sv	/^`define UVM_PKG_SV$/;"	d
+UVM_PORT_COMMON	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_PORT_COMMON(MASK,TYPE_NAME) \\$/;"	d
+UVM_POST_VERSION_1_1	src/macros/uvm_version_defines.svh	/^`define UVM_POST_VERSION_1_1$/;"	d
+UVM_PRINTER_DEFINES_SVH	src/macros/uvm_printer_defines.svh	/^`define UVM_PRINTER_DEFINES_SVH$/;"	d
+UVM_PUT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_PUT_IMP(imp, TYPE, arg) \\$/;"	d
+UVM_QUEUE_SVH	src/base/uvm_queue.svh	/^`define UVM_QUEUE_SVH$/;"	d
+UVM_REGEX_MAX_LENGTH	src/dpi/uvm_regex.cc	/^#define UVM_REGEX_MAX_LENGTH /;"	d	file:
+UVM_REGEX_NO_DPI	src/dpi/uvm_dpi.svh	/^  `define UVM_REGEX_NO_DPI$/;"	d
+UVM_REGISTRY_SVH	src/base/uvm_registry.svh	/^`define UVM_REGISTRY_SVH$/;"	d
+UVM_REG_ADDR_WIDTH	src/macros/uvm_reg_defines.svh	/^ `define UVM_REG_ADDR_WIDTH 64$/;"	d
+UVM_REG_BYTENABLE_WIDTH	src/macros/uvm_reg_defines.svh	/^  `define UVM_REG_BYTENABLE_WIDTH ((`UVM_REG_DATA_WIDTH-1)\/8+1) $/;"	d
+UVM_REG_CVR_WIDTH	src/macros/uvm_reg_defines.svh	/^ `define UVM_REG_CVR_WIDTH 32$/;"	d
+UVM_REG_DATA_WIDTH	src/macros/uvm_reg_defines.svh	/^ `define UVM_REG_DATA_WIDTH 64$/;"	d
+UVM_REG_MODEL__SV	src/reg/uvm_reg_model.svh	/^`define UVM_REG_MODEL__SV$/;"	d
+UVM_REPORT_CATCHER_SVH	src/base/uvm_report_catcher.svh	/^`define UVM_REPORT_CATCHER_SVH$/;"	d
+UVM_REPORT_CLIENT_SVH	src/base/uvm_report_object.svh	/^`define UVM_REPORT_CLIENT_SVH$/;"	d
+UVM_REPORT_DISABLE_FILE	src/macros/uvm_message_defines.svh	/^`define UVM_REPORT_DISABLE_FILE$/;"	d
+UVM_REPORT_DISABLE_LINE	src/macros/uvm_message_defines.svh	/^`define UVM_REPORT_DISABLE_LINE$/;"	d
+UVM_REPORT_HANDLER_SVH	src/base/uvm_report_handler.svh	/^`define UVM_REPORT_HANDLER_SVH$/;"	d
+UVM_REPORT_MESSAGE_SVH	src/base/uvm_report_message.svh	/^`define UVM_REPORT_MESSAGE_SVH$/;"	d
+UVM_REPORT_SERVER_SVH	src/base/uvm_report_server.svh	/^`define UVM_REPORT_SERVER_SVH$/;"	d
+UVM_RESOURCE_GET_FCNS	src/base/uvm_resource_specializations.svh	/^`define UVM_RESOURCE_GET_FCNS(base_type)                                               \\$/;"	d
 UVM_SEQ_ARB_TYPE	src/base/uvm_object_globals.svh	/^typedef uvm_sequencer_arb_mode UVM_SEQ_ARB_TYPE; \/\/ backward compat$/;"	e
+UVM_SEQ_ITEM_FUNCTION_ERROR	src/tlm1/uvm_sqr_ifs.svh	/^`define UVM_SEQ_ITEM_FUNCTION_ERROR "Sequencer interface function not implemented"$/;"	d
+UVM_SEQ_ITEM_GET_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_GET_MASK                 (1<<7)$/;"	d
+UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK       (1<<0)$/;"	d
+UVM_SEQ_ITEM_HAS_DO_AVAILABLE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_HAS_DO_AVAILABLE_MASK    (1<<3)$/;"	d
+UVM_SEQ_ITEM_ITEM_DONE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_ITEM_DONE_MASK           (1<<2)$/;"	d
+UVM_SEQ_ITEM_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PEEK_MASK                (1<<8)$/;"	d
+UVM_SEQ_ITEM_PULL_IMP	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PULL_IMP(imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
+UVM_SEQ_ITEM_PULL_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PULL_MASK  (`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK | `UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK | \\$/;"	d
+UVM_SEQ_ITEM_PUSH_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PUSH_MASK  (`UVM_SEQ_ITEM_PUT_MASK)$/;"	d
+UVM_SEQ_ITEM_PUT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PUT_MASK                 (1<<6)$/;"	d
+UVM_SEQ_ITEM_PUT_RESPONSE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PUT_RESPONSE_MASK        (1<<5)$/;"	d
+UVM_SEQ_ITEM_TASK_ERROR	src/tlm1/uvm_sqr_ifs.svh	/^`define UVM_SEQ_ITEM_TASK_ERROR "Sequencer interface task not implemented"$/;"	d
+UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK       (1<<1)$/;"	d
+UVM_SEQ_ITEM_UNI_PULL_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_UNI_PULL_MASK (`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK | `UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK | \\$/;"	d
+UVM_SEQ_ITEM_WAIT_FOR_SEQUENCES_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_WAIT_FOR_SEQUENCES_MASK  (1<<4)$/;"	d
+UVM_SEQ_PORT	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_SEQ_PORT(MASK,TYPE_NAME) \\$/;"	d
+UVM_STRING_QUEUE_STREAMING_PACK	src/uvm_macros.svh	/^  `define UVM_STRING_QUEUE_STREAMING_PACK(q) uvm_pkg::m_uvm_string_queue_join(q)$/;"	d
+UVM_TASK_ERROR	src/tlm1/uvm_tlm_ifs.svh	/^`define UVM_TASK_ERROR "TLM interface task not implemented"$/;"	d
+UVM_TLM_ANALYSIS_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_ANALYSIS_MASK              (1<<8)$/;"	d
+UVM_TLM_BLOCKING_GET_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_GET_MASK          (1<<1)$/;"	d
+UVM_TLM_BLOCKING_GET_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_GET_PEEK_MASK    (`UVM_TLM_BLOCKING_GET_MASK    | `UVM_TLM_BLOCKING_PEEK_MASK)$/;"	d
+UVM_TLM_BLOCKING_MASTER_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_MASTER_MASK      (`UVM_TLM_BLOCKING_PUT_MASK       | `UVM_TLM_BLOCKING_GET_MASK | `UVM_TLM_BLOCKING_PEEK_MASK | `UVM_TLM_MASTER_BIT_MASK)$/;"	d
+UVM_TLM_BLOCKING_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_PEEK_MASK         (1<<2)$/;"	d
+UVM_TLM_BLOCKING_PUT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_PUT_MASK          (1<<0)$/;"	d
+UVM_TLM_BLOCKING_SLAVE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_SLAVE_MASK       (`UVM_TLM_BLOCKING_PUT_MASK       | `UVM_TLM_BLOCKING_GET_MASK | `UVM_TLM_BLOCKING_PEEK_MASK | `UVM_TLM_SLAVE_BIT_MASK)$/;"	d
+UVM_TLM_BLOCKING_TRANSPORT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_TRANSPORT_MASK    (1<<3)$/;"	d
+UVM_TLM_B_MASK	src/tlm2/uvm_tlm2_defines.svh	/^`define UVM_TLM_B_MASK      (1<<2)$/;"	d
+UVM_TLM_B_TRANSPORT_IMP	src/tlm2/uvm_tlm2_imps.svh	/^`define UVM_TLM_B_TRANSPORT_IMP(imp, T, t, delay)                        \\$/;"	d
+UVM_TLM_FIFO_FUNCTION_ERROR	src/tlm1/uvm_tlm_fifo_base.svh	/^`define UVM_TLM_FIFO_FUNCTION_ERROR "fifo channel function not implemented"$/;"	d
+UVM_TLM_FIFO_TASK_ERROR	src/tlm1/uvm_tlm_fifo_base.svh	/^`define UVM_TLM_FIFO_TASK_ERROR "fifo channel task not implemented"$/;"	d
+UVM_TLM_FUNCTION_ERROR	src/tlm2/uvm_tlm2_ifs.svh	/^`define UVM_TLM_FUNCTION_ERROR "TLM-2 interface function not implemented"$/;"	d
+UVM_TLM_GET_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_GET_MASK                  (`UVM_TLM_BLOCKING_GET_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK)$/;"	d
+UVM_TLM_GET_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_GET_PEEK_MASK             (`UVM_TLM_GET_MASK | `UVM_TLM_PEEK_MASK)$/;"	d
+UVM_TLM_GET_TYPE_NAME	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_TLM_GET_TYPE_NAME(NAME) \\$/;"	d
+UVM_TLM_IMPS_SVH	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_TLM_IMPS_SVH$/;"	d
+UVM_TLM_MASTER_BIT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_MASTER_BIT_MASK            (1<<9)$/;"	d
+UVM_TLM_MASTER_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_MASTER_MASK               (`UVM_TLM_BLOCKING_MASTER_MASK    | `UVM_TLM_NONBLOCKING_MASTER_MASK)$/;"	d
+UVM_TLM_NB_BW_MASK	src/tlm2/uvm_tlm2_defines.svh	/^`define UVM_TLM_NB_BW_MASK  (1<<1)$/;"	d
+UVM_TLM_NB_FW_MASK	src/tlm2/uvm_tlm2_defines.svh	/^`define UVM_TLM_NB_FW_MASK  (1<<0)$/;"	d
+UVM_TLM_NB_TRANSPORT_BW_IMP	src/tlm2/uvm_tlm2_imps.svh	/^`define UVM_TLM_NB_TRANSPORT_BW_IMP(imp, T, P, t, p, delay) \\$/;"	d
+UVM_TLM_NB_TRANSPORT_FW_IMP	src/tlm2/uvm_tlm2_imps.svh	/^`define UVM_TLM_NB_TRANSPORT_FW_IMP(imp, T, P, t, p, delay)              \\$/;"	d
+UVM_TLM_NONBLOCKING_GET_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_GET_MASK       (1<<5)$/;"	d
+UVM_TLM_NONBLOCKING_GET_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_GET_PEEK_MASK (`UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK)$/;"	d
+UVM_TLM_NONBLOCKING_MASTER_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_MASTER_MASK   (`UVM_TLM_NONBLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK | `UVM_TLM_MASTER_BIT_MASK)$/;"	d
+UVM_TLM_NONBLOCKING_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_PEEK_MASK      (1<<6)$/;"	d
+UVM_TLM_NONBLOCKING_PUT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_PUT_MASK       (1<<4)$/;"	d
+UVM_TLM_NONBLOCKING_SLAVE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_SLAVE_MASK    (`UVM_TLM_NONBLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK | `UVM_TLM_SLAVE_BIT_MASK)$/;"	d
+UVM_TLM_NONBLOCKING_TRANSPORT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_TRANSPORT_MASK (1<<7)$/;"	d
+UVM_TLM_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_PEEK_MASK                 (`UVM_TLM_BLOCKING_PEEK_MASK   | `UVM_TLM_NONBLOCKING_PEEK_MASK)$/;"	d
+UVM_TLM_PUT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_PUT_MASK                  (`UVM_TLM_BLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_PUT_MASK)$/;"	d
+UVM_TLM_SLAVE_BIT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_SLAVE_BIT_MASK             (1<<10)$/;"	d
+UVM_TLM_SLAVE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_SLAVE_MASK                (`UVM_TLM_BLOCKING_SLAVE_MASK    | `UVM_TLM_NONBLOCKING_SLAVE_MASK)$/;"	d
+UVM_TLM_TASK_ERROR	src/tlm2/uvm_tlm2_ifs.svh	/^`define UVM_TLM_TASK_ERROR "TLM-2 interface task not implemented"$/;"	d
+UVM_TLM_TRANSPORT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_TRANSPORT_MASK            (`UVM_TLM_BLOCKING_TRANSPORT_MASK | `UVM_TLM_NONBLOCKING_TRANSPORT_MASK)$/;"	d
+UVM_TRANSPORT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_TRANSPORT_IMP(imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
+UVM_USE_PROCESS_CONTAINER	src/uvm_macros.svh	/^  `define UVM_USE_PROCESS_CONTAINER$/;"	d
+UVM_VERSION_1_2	src/macros/uvm_version_defines.svh	/^`define UVM_VERSION_1_2$/;"	d
+UVM_VERSION_DEFINES_SVH	src/macros/uvm_version_defines.svh	/^`define UVM_VERSION_DEFINES_SVH$/;"	d
+UVM_VERSION_STRING	src/macros/uvm_version_defines.svh	/^ `define UVM_VERSION_STRING `"`UVM_NAME``-```UVM_MAJOR_REV``.```UVM_MINOR_REV`UVM_FIX_REV`"$/;"	d
+UVM_VERSION_STRING	src/macros/uvm_version_defines.svh	/^ `define UVM_VERSION_STRING `"`UVM_NAME``-```UVM_MAJOR_REV``.```UVM_MINOR_REV```"$/;"	d
+UVM_VERSION_SVH	src/base/uvm_version.svh	/^`define UVM_VERSION_SVH$/;"	d
 Xadd_vregX	src/reg/uvm_mem.svh	/^function void uvm_mem::Xadd_vregX(uvm_vreg vreg);$/;"	f
 XatomicX	src/reg/uvm_reg.svh	/^task uvm_reg::XatomicX(bit on);$/;"	t
 XatomicX	src/reg/uvm_vreg.svh	/^task uvm_vreg::XatomicX(bit on);$/;"	t
@@ -31,170 +204,11 @@ Xset_busyX	src/reg/uvm_reg.svh	/^function void uvm_reg::Xset_busyX(bit busy);$/;
 XupdateX	src/reg/uvm_reg_field.svh	/^function uvm_reg_data_t  uvm_reg_field::XupdateX();$/;"	f
 Xverify_map_configX	src/reg/uvm_reg_map.svh	/^function void uvm_reg_map::Xverify_map_configX();$/;"	f
 ___local_type____	src/macros/uvm_object_defines.svh	/^     typedef T ___local_type____; \\$/;"	e
+__built_in	src/deprecated/uvm_resource_converter.svh	/^         `define __built_in(T) void'(m_uvm_resource_default_converter#(T)::register(`"T`"))$/;"	d
 __m_uvm_field_automation	src/base/uvm_object.svh	/^function void uvm_object::__m_uvm_field_automation (uvm_object tmp_data__,$/;"	f
-`M_FIELD_QDA_ENUM	src/macros/uvm_object_defines.svh	/^`define M_FIELD_QDA_ENUM(TYPE,T,ARG,FLAG) \\$/;"	d
-`M_UVM_ARRAY_RESIZE	src/macros/uvm_object_defines.svh	/^`define M_UVM_ARRAY_RESIZE(ARG,VAL) \\$/;"	d
-`M_UVM_FIELD_DATA_AA_enum_key	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_enum_key(KEY, ARG, FLAG) \\$/;"	d
-`M_UVM_FIELD_DATA_AA_generic	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_generic(TYPE, KEY, ARG, FLAG) \\$/;"	d
-`M_UVM_FIELD_DATA_AA_int_key	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_int_key(KEY, ARG, FLAG) \\$/;"	d
-`M_UVM_FIELD_DATA_AA_int_string	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_int_string(ARG, FLAG) \\$/;"	d
-`M_UVM_FIELD_DATA_AA_object_int	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_object_int(ARG, FLAG) \\$/;"	d
-`M_UVM_FIELD_DATA_AA_object_string	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_object_string(ARG, FLAG) \\$/;"	d
-`M_UVM_FIELD_DATA_AA_string_string	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_DATA_AA_string_string(ARG, FLAG) \\$/;"	d
-`M_UVM_FIELD_QDA_INT	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_QDA_INT(TYPE,ARG,FLAG) \\$/;"	d
-`M_UVM_FIELD_QDA_OBJECT	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_QDA_OBJECT(TYPE,ARG,FLAG) \\$/;"	d
-`M_UVM_FIELD_QDA_STRING	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_QDA_STRING(TYPE,ARG,FLAG) \\$/;"	d
-`M_UVM_FIELD_SET_AA_INT_ENUMTYPE	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_SET_AA_INT_ENUMTYPE(INDEX_TYPE, ARRAY_TYPE, ARRAY, RHS, FLAG) \\$/;"	d
-`M_UVM_FIELD_SET_AA_INT_TYPE	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_SET_AA_INT_TYPE(INDEX_TYPE, ARRAY_TYPE, ARRAY, RHS, FLAG) \\$/;"	d
-`M_UVM_FIELD_SET_AA_OBJECT_TYPE	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_SET_AA_OBJECT_TYPE(INDEX_TYPE, ARRAY, FLAG) \\$/;"	d
-`M_UVM_FIELD_SET_AA_TYPE	src/macros/uvm_object_defines.svh	/^`define M_UVM_FIELD_SET_AA_TYPE(INDEX_TYPE, ARRAY_TYPE, ARRAY, RHS, FLAG) \\$/;"	d
-`M_UVM_QUEUE_RESIZE	src/macros/uvm_object_defines.svh	/^`define M_UVM_QUEUE_RESIZE(ARG,VAL) \\$/;"	d
-`M_UVM_SARRAY_RESIZE	src/macros/uvm_object_defines.svh	/^`define M_UVM_SARRAY_RESIZE(ARG,VAL) \\$/;"	d
-`QUESTA	src/uvm_macros.svh	/^`define QUESTA$/;"	d
-`UVM_BASE_SVH	src/base/uvm_base.svh	/^`define UVM_BASE_SVH$/;"	d
-`UVM_BLOCKING_GET_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_GET_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_BLOCKING_GET_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_BLOCKING_GET_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
-`UVM_BLOCKING_GET_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_GET_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_BLOCKING_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_BLOCKING_PEEK_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_BLOCKING_PEEK_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
-`UVM_BLOCKING_PUT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_PUT_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_BLOCKING_PUT_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_BLOCKING_PUT_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
-`UVM_BLOCKING_TRANSPORT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_BLOCKING_TRANSPORT_IMP(imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
-`UVM_BLOCKING_TRANSPORT_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_BLOCKING_TRANSPORT_IMP_SFX(SFX, imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
-`UVM_CALLBACK_SVH	src/base/uvm_callback.svh	/^`define UVM_CALLBACK_SVH$/;"	d
-`UVM_CB_MACROS_SVH	src/macros/uvm_callback_defines.svh	/^`define UVM_CB_MACROS_SVH$/;"	d
-`UVM_CMDLINE_NO_DPI	src/dpi/uvm_dpi.svh	/^  `define UVM_CMDLINE_NO_DPI$/;"	d
-`UVM_CMDLINE_PROCESSOR_SV	src/base/uvm_cmdline_processor.svh	/^`define UVM_CMDLINE_PROCESSOR_SV$/;"	d
-`UVM_CORESERVICE_TYPE	src/base/uvm_coreservice.svh	/^`define UVM_CORESERVICE_TYPE uvm_default_coreservice_t$/;"	d
-`UVM_DAP_SVH	src/dap/uvm_dap.svh	/^ `define UVM_DAP_SVH$/;"	d
-`UVM_DEFAULT_TIMEOUT	src/macros/uvm_global_defines.svh	/^`define UVM_DEFAULT_TIMEOUT 9200s$/;"	d
-`UVM_DEPRECATED_STARTING_PHASE	src/seq/uvm_sequence_base.svh	/^ `define UVM_DEPRECATED_STARTING_PHASE$/;"	d
-`UVM_DPI_SVH	src/dpi/uvm_dpi.svh	/^`define UVM_DPI_SVH$/;"	d
-`UVM_EXPORT_COMMON	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_EXPORT_COMMON(MASK,TYPE_NAME) \\$/;"	d
-`UVM_FUNCTION_ERROR	src/tlm1/uvm_tlm_ifs.svh	/^`define UVM_FUNCTION_ERROR "TLM interface function not implemented"$/;"	d
-`UVM_GET_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_GET_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_GET_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_GET_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_GLOBAL_DEFINES_SVH	src/macros/uvm_global_defines.svh	/^`define UVM_GLOBAL_DEFINES_SVH$/;"	d
-`UVM_HDL_MAX_WIDTH	src/dpi/uvm_hdl.svh	/^`define UVM_HDL_MAX_WIDTH 1024$/;"	d
-`UVM_HDL_NO_DPI	src/dpi/uvm_dpi.svh	/^  `define UVM_HDL_NO_DPI$/;"	d
-`UVM_HDL__SVH	src/dpi/uvm_hdl.svh	/^`define UVM_HDL__SVH$/;"	d
-`UVM_HEARTBEAT_SVH	src/base/uvm_heartbeat.svh	/^`define UVM_HEARTBEAT_SVH$/;"	d
-`UVM_IMP_COMMON	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_IMP_COMMON(MASK,TYPE_NAME,IMP) \\$/;"	d
-`UVM_LINE_WIDTH	src/macros/uvm_message_defines.svh	/^  `define UVM_LINE_WIDTH 120$/;"	d
-`UVM_MACROS_SVH	src/uvm_macros.svh	/^`define UVM_MACROS_SVH$/;"	d
-`UVM_MAJOR_REV	src/macros/uvm_version_defines.svh	/^`define UVM_MAJOR_REV 1$/;"	d
-`UVM_MAJOR_REV_1	src/macros/uvm_version_defines.svh	/^`define UVM_MAJOR_REV_1$/;"	d
-`UVM_MAJOR_VERSION_1_2	src/macros/uvm_version_defines.svh	/^`define UVM_MAJOR_VERSION_1_2$/;"	d
-`UVM_MAX_STREAMBITS	src/macros/uvm_global_defines.svh	/^ `define UVM_MAX_STREAMBITS 4096$/;"	d
-`UVM_MEM_MAM__SV	src/reg/uvm_mem_mam.svh	/^`define UVM_MEM_MAM__SV$/;"	d
-`UVM_MESSAGE_DEFINES_SVH	src/macros/uvm_message_defines.svh	/^`define UVM_MESSAGE_DEFINES_SVH$/;"	d
-`UVM_MINOR_REV	src/macros/uvm_version_defines.svh	/^`define UVM_MINOR_REV 2$/;"	d
-`UVM_MINOR_REV_2	src/macros/uvm_version_defines.svh	/^`define UVM_MINOR_REV_2$/;"	d
-`UVM_MS_IMP_COMMON	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_MS_IMP_COMMON(MASK,TYPE_NAME) \\$/;"	d
-`UVM_NAME	src/macros/uvm_version_defines.svh	/^`define UVM_NAME UVM$/;"	d
-`UVM_NONBLOCKING_GET_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_GET_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_NONBLOCKING_GET_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_NONBLOCKING_GET_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
-`UVM_NONBLOCKING_GET_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_GET_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_NONBLOCKING_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_NONBLOCKING_PEEK_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_NONBLOCKING_PEEK_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
-`UVM_NONBLOCKING_PUT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_PUT_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_NONBLOCKING_PUT_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_NONBLOCKING_PUT_IMP_SFX(SFX, imp, TYPE, arg) \\$/;"	d
-`UVM_NONBLOCKING_TRANSPORT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_NONBLOCKING_TRANSPORT_IMP(imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
-`UVM_NONBLOCKING_TRANSPORT_IMP_SFX	src/macros/uvm_tlm_defines.svh	/^`define UVM_NONBLOCKING_TRANSPORT_IMP_SFX(SFX, imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
-`UVM_NO_REGISTERED_CONVERTER	src/macros/uvm_object_defines.svh	/^  `define UVM_NO_REGISTERED_CONVERTER$/;"	d
-`UVM_NUM_LINES	src/macros/uvm_message_defines.svh	/^  `define UVM_NUM_LINES 120$/;"	d
-`UVM_OBJECTION_SVH	src/base/uvm_objection.svh	/^`define UVM_OBJECTION_SVH$/;"	d
-`UVM_OBJECT_DEFINES_SVH	src/macros/uvm_object_defines.svh	/^`define UVM_OBJECT_DEFINES_SVH$/;"	d
-`UVM_PACKER_MAX_BYTES	src/macros/uvm_global_defines.svh	/^ `define UVM_PACKER_MAX_BYTES `UVM_MAX_STREAMBITS$/;"	d
-`UVM_PEEK_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_PEEK_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_PHASE_DEFINES_SVH	src/macros/uvm_phase_defines.svh	/^`define UVM_PHASE_DEFINES_SVH$/;"	d
-`UVM_PH_TRACE	src/base/uvm_phase.svh	/^`define UVM_PH_TRACE(ID,MSG,PH,VERB) \\$/;"	d
-`UVM_PKG_SV	src/uvm_pkg.sv	/^`define UVM_PKG_SV$/;"	d
-`UVM_PORT_COMMON	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_PORT_COMMON(MASK,TYPE_NAME) \\$/;"	d
-`UVM_POST_VERSION_1_1	src/macros/uvm_version_defines.svh	/^`define UVM_POST_VERSION_1_1$/;"	d
-`UVM_PRINTER_DEFINES_SVH	src/macros/uvm_printer_defines.svh	/^`define UVM_PRINTER_DEFINES_SVH$/;"	d
-`UVM_PUT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_PUT_IMP(imp, TYPE, arg) \\$/;"	d
-`UVM_QUEUE_SVH	src/base/uvm_queue.svh	/^`define UVM_QUEUE_SVH$/;"	d
-`UVM_REGEX_NO_DPI	src/dpi/uvm_dpi.svh	/^  `define UVM_REGEX_NO_DPI$/;"	d
-`UVM_REGISTRY_SVH	src/base/uvm_registry.svh	/^`define UVM_REGISTRY_SVH$/;"	d
-`UVM_REG_ADDR_WIDTH	src/macros/uvm_reg_defines.svh	/^ `define UVM_REG_ADDR_WIDTH 64$/;"	d
-`UVM_REG_BYTENABLE_WIDTH	src/macros/uvm_reg_defines.svh	/^  `define UVM_REG_BYTENABLE_WIDTH ((`UVM_REG_DATA_WIDTH-1)\/8+1) $/;"	d
-`UVM_REG_CVR_WIDTH	src/macros/uvm_reg_defines.svh	/^ `define UVM_REG_CVR_WIDTH 32$/;"	d
-`UVM_REG_DATA_WIDTH	src/macros/uvm_reg_defines.svh	/^ `define UVM_REG_DATA_WIDTH 64$/;"	d
-`UVM_REG_MODEL__SV	src/reg/uvm_reg_model.svh	/^`define UVM_REG_MODEL__SV$/;"	d
-`UVM_REPORT_CATCHER_SVH	src/base/uvm_report_catcher.svh	/^`define UVM_REPORT_CATCHER_SVH$/;"	d
-`UVM_REPORT_CLIENT_SVH	src/base/uvm_report_object.svh	/^`define UVM_REPORT_CLIENT_SVH$/;"	d
-`UVM_REPORT_DISABLE_FILE	src/macros/uvm_message_defines.svh	/^`define UVM_REPORT_DISABLE_FILE$/;"	d
-`UVM_REPORT_DISABLE_LINE	src/macros/uvm_message_defines.svh	/^`define UVM_REPORT_DISABLE_LINE$/;"	d
-`UVM_REPORT_HANDLER_SVH	src/base/uvm_report_handler.svh	/^`define UVM_REPORT_HANDLER_SVH$/;"	d
-`UVM_REPORT_MESSAGE_SVH	src/base/uvm_report_message.svh	/^`define UVM_REPORT_MESSAGE_SVH$/;"	d
-`UVM_REPORT_SERVER_SVH	src/base/uvm_report_server.svh	/^`define UVM_REPORT_SERVER_SVH$/;"	d
-`UVM_RESOURCE_GET_FCNS	src/base/uvm_resource_specializations.svh	/^`define UVM_RESOURCE_GET_FCNS(base_type)                                               \\$/;"	d
-`UVM_SEQ_ITEM_FUNCTION_ERROR	src/tlm1/uvm_sqr_ifs.svh	/^`define UVM_SEQ_ITEM_FUNCTION_ERROR "Sequencer interface function not implemented"$/;"	d
-`UVM_SEQ_ITEM_GET_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_GET_MASK                 (1<<7)$/;"	d
-`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK       (1<<0)$/;"	d
-`UVM_SEQ_ITEM_HAS_DO_AVAILABLE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_HAS_DO_AVAILABLE_MASK    (1<<3)$/;"	d
-`UVM_SEQ_ITEM_ITEM_DONE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_ITEM_DONE_MASK           (1<<2)$/;"	d
-`UVM_SEQ_ITEM_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PEEK_MASK                (1<<8)$/;"	d
-`UVM_SEQ_ITEM_PULL_IMP	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PULL_IMP(imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
-`UVM_SEQ_ITEM_PULL_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PULL_MASK  (`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK | `UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK | \\$/;"	d
-`UVM_SEQ_ITEM_PUSH_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PUSH_MASK  (`UVM_SEQ_ITEM_PUT_MASK)$/;"	d
-`UVM_SEQ_ITEM_PUT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PUT_MASK                 (1<<6)$/;"	d
-`UVM_SEQ_ITEM_PUT_RESPONSE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_PUT_RESPONSE_MASK        (1<<5)$/;"	d
-`UVM_SEQ_ITEM_TASK_ERROR	src/tlm1/uvm_sqr_ifs.svh	/^`define UVM_SEQ_ITEM_TASK_ERROR "Sequencer interface task not implemented"$/;"	d
-`UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK       (1<<1)$/;"	d
-`UVM_SEQ_ITEM_UNI_PULL_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_UNI_PULL_MASK (`UVM_SEQ_ITEM_GET_NEXT_ITEM_MASK | `UVM_SEQ_ITEM_TRY_NEXT_ITEM_MASK | \\$/;"	d
-`UVM_SEQ_ITEM_WAIT_FOR_SEQUENCES_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_SEQ_ITEM_WAIT_FOR_SEQUENCES_MASK  (1<<4)$/;"	d
-`UVM_SEQ_PORT	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_SEQ_PORT(MASK,TYPE_NAME) \\$/;"	d
-`UVM_STRING_QUEUE_STREAMING_PACK	src/uvm_macros.svh	/^  `define UVM_STRING_QUEUE_STREAMING_PACK(q) uvm_pkg::m_uvm_string_queue_join(q)$/;"	d
-`UVM_TASK_ERROR	src/tlm1/uvm_tlm_ifs.svh	/^`define UVM_TASK_ERROR "TLM interface task not implemented"$/;"	d
-`UVM_TLM_ANALYSIS_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_ANALYSIS_MASK              (1<<8)$/;"	d
-`UVM_TLM_BLOCKING_GET_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_GET_MASK          (1<<1)$/;"	d
-`UVM_TLM_BLOCKING_GET_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_GET_PEEK_MASK    (`UVM_TLM_BLOCKING_GET_MASK    | `UVM_TLM_BLOCKING_PEEK_MASK)$/;"	d
-`UVM_TLM_BLOCKING_MASTER_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_MASTER_MASK      (`UVM_TLM_BLOCKING_PUT_MASK       | `UVM_TLM_BLOCKING_GET_MASK | `UVM_TLM_BLOCKING_PEEK_MASK | `UVM_TLM_MASTER_BIT_MASK)$/;"	d
-`UVM_TLM_BLOCKING_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_PEEK_MASK         (1<<2)$/;"	d
-`UVM_TLM_BLOCKING_PUT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_PUT_MASK          (1<<0)$/;"	d
-`UVM_TLM_BLOCKING_SLAVE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_SLAVE_MASK       (`UVM_TLM_BLOCKING_PUT_MASK       | `UVM_TLM_BLOCKING_GET_MASK | `UVM_TLM_BLOCKING_PEEK_MASK | `UVM_TLM_SLAVE_BIT_MASK)$/;"	d
-`UVM_TLM_BLOCKING_TRANSPORT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_BLOCKING_TRANSPORT_MASK    (1<<3)$/;"	d
-`UVM_TLM_B_MASK	src/tlm2/uvm_tlm2_defines.svh	/^`define UVM_TLM_B_MASK      (1<<2)$/;"	d
-`UVM_TLM_B_TRANSPORT_IMP	src/tlm2/uvm_tlm2_imps.svh	/^`define UVM_TLM_B_TRANSPORT_IMP(imp, T, t, delay)                        \\$/;"	d
-`UVM_TLM_FIFO_FUNCTION_ERROR	src/tlm1/uvm_tlm_fifo_base.svh	/^`define UVM_TLM_FIFO_FUNCTION_ERROR "fifo channel function not implemented"$/;"	d
-`UVM_TLM_FIFO_TASK_ERROR	src/tlm1/uvm_tlm_fifo_base.svh	/^`define UVM_TLM_FIFO_TASK_ERROR "fifo channel task not implemented"$/;"	d
-`UVM_TLM_FUNCTION_ERROR	src/tlm2/uvm_tlm2_ifs.svh	/^`define UVM_TLM_FUNCTION_ERROR "TLM-2 interface function not implemented"$/;"	d
-`UVM_TLM_GET_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_GET_MASK                  (`UVM_TLM_BLOCKING_GET_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK)$/;"	d
-`UVM_TLM_GET_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_GET_PEEK_MASK             (`UVM_TLM_GET_MASK | `UVM_TLM_PEEK_MASK)$/;"	d
-`UVM_TLM_GET_TYPE_NAME	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_TLM_GET_TYPE_NAME(NAME) \\$/;"	d
-`UVM_TLM_IMPS_SVH	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_TLM_IMPS_SVH$/;"	d
-`UVM_TLM_MASTER_BIT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_MASTER_BIT_MASK            (1<<9)$/;"	d
-`UVM_TLM_MASTER_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_MASTER_MASK               (`UVM_TLM_BLOCKING_MASTER_MASK    | `UVM_TLM_NONBLOCKING_MASTER_MASK)$/;"	d
-`UVM_TLM_NB_BW_MASK	src/tlm2/uvm_tlm2_defines.svh	/^`define UVM_TLM_NB_BW_MASK  (1<<1)$/;"	d
-`UVM_TLM_NB_FW_MASK	src/tlm2/uvm_tlm2_defines.svh	/^`define UVM_TLM_NB_FW_MASK  (1<<0)$/;"	d
-`UVM_TLM_NB_TRANSPORT_BW_IMP	src/tlm2/uvm_tlm2_imps.svh	/^`define UVM_TLM_NB_TRANSPORT_BW_IMP(imp, T, P, t, p, delay) \\$/;"	d
-`UVM_TLM_NB_TRANSPORT_FW_IMP	src/tlm2/uvm_tlm2_imps.svh	/^`define UVM_TLM_NB_TRANSPORT_FW_IMP(imp, T, P, t, p, delay)              \\$/;"	d
-`UVM_TLM_NONBLOCKING_GET_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_GET_MASK       (1<<5)$/;"	d
-`UVM_TLM_NONBLOCKING_GET_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_GET_PEEK_MASK (`UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK)$/;"	d
-`UVM_TLM_NONBLOCKING_MASTER_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_MASTER_MASK   (`UVM_TLM_NONBLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK | `UVM_TLM_MASTER_BIT_MASK)$/;"	d
-`UVM_TLM_NONBLOCKING_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_PEEK_MASK      (1<<6)$/;"	d
-`UVM_TLM_NONBLOCKING_PUT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_PUT_MASK       (1<<4)$/;"	d
-`UVM_TLM_NONBLOCKING_SLAVE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_SLAVE_MASK    (`UVM_TLM_NONBLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_GET_MASK | `UVM_TLM_NONBLOCKING_PEEK_MASK | `UVM_TLM_SLAVE_BIT_MASK)$/;"	d
-`UVM_TLM_NONBLOCKING_TRANSPORT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_NONBLOCKING_TRANSPORT_MASK (1<<7)$/;"	d
-`UVM_TLM_PEEK_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_PEEK_MASK                 (`UVM_TLM_BLOCKING_PEEK_MASK   | `UVM_TLM_NONBLOCKING_PEEK_MASK)$/;"	d
-`UVM_TLM_PUT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_PUT_MASK                  (`UVM_TLM_BLOCKING_PUT_MASK    | `UVM_TLM_NONBLOCKING_PUT_MASK)$/;"	d
-`UVM_TLM_SLAVE_BIT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_SLAVE_BIT_MASK             (1<<10)$/;"	d
-`UVM_TLM_SLAVE_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_SLAVE_MASK                (`UVM_TLM_BLOCKING_SLAVE_MASK    | `UVM_TLM_NONBLOCKING_SLAVE_MASK)$/;"	d
-`UVM_TLM_TASK_ERROR	src/tlm2/uvm_tlm2_ifs.svh	/^`define UVM_TLM_TASK_ERROR "TLM-2 interface task not implemented"$/;"	d
-`UVM_TLM_TRANSPORT_MASK	src/macros/uvm_tlm_defines.svh	/^`define UVM_TLM_TRANSPORT_MASK            (`UVM_TLM_BLOCKING_TRANSPORT_MASK | `UVM_TLM_NONBLOCKING_TRANSPORT_MASK)$/;"	d
-`UVM_TRANSPORT_IMP	src/tlm1/uvm_tlm_imps.svh	/^`define UVM_TRANSPORT_IMP(imp, REQ, RSP, req_arg, rsp_arg) \\$/;"	d
-`UVM_USE_PROCESS_CONTAINER	src/uvm_macros.svh	/^  `define UVM_USE_PROCESS_CONTAINER$/;"	d
-`UVM_VERSION_1_2	src/macros/uvm_version_defines.svh	/^`define UVM_VERSION_1_2$/;"	d
-`UVM_VERSION_DEFINES_SVH	src/macros/uvm_version_defines.svh	/^`define UVM_VERSION_DEFINES_SVH$/;"	d
-`UVM_VERSION_STRING	src/macros/uvm_version_defines.svh	/^ `define UVM_VERSION_STRING `"`UVM_NAME``-```UVM_MAJOR_REV``.```UVM_MINOR_REV`UVM_FIX_REV`"$/;"	d
-`UVM_VERSION_STRING	src/macros/uvm_version_defines.svh	/^ `define UVM_VERSION_STRING `"`UVM_NAME``-```UVM_MAJOR_REV``.```UVM_MINOR_REV```"$/;"	d
-`UVM_VERSION_SVH	src/base/uvm_version.svh	/^`define UVM_VERSION_SVH$/;"	d
 `_	src/reg/uvm_reg_field.svh	/^            reg_.get_name(),$/;"	v
 `__array	src/macros/uvm_object_defines.svh	/^      int __array[] = new[(SIZE+31)\/32]; \\$/;"	v
 `__array	src/macros/uvm_object_defines.svh	/^   int __array[]; \\$/;"	v
-`__built_in	src/deprecated/uvm_resource_converter.svh	/^         `define __built_in(T) void'(m_uvm_resource_default_converter#(T)::register(`"T`"))$/;"	d
 `_aa_key	src/macros/uvm_object_defines.svh	/^              string_aa_key = ""; \\$/;"	v
 `_ap	src/reg/uvm_reg_predictor.svh	/^              reg_ap.write(reg_item);$/;"	v
 `_ap	src/reg/uvm_reg_predictor.svh	/^    reg_ap = new("reg_ap", this);$/;"	v
@@ -1011,25 +1025,7 @@ __m_uvm_field_automation	src/base/uvm_object.svh	/^function void uvm_object::__m
 `m_transaction_id	src/base/uvm_transaction.svh	/^  local integer m_transaction_id = -1;$/;"	v
 `m_typename	src/base/uvm_callback.svh	/^  static string m_typename;$/;"	v
 `m_use_response_handler	src/seq/uvm_sequence_base.svh	/^  local bit m_use_response_handler;$/;"	v
-`m_uvm_bottomup_phase	src/macros/uvm_phase_defines.svh	/^`define m_uvm_bottomup_phase(PHASE,COMP,PREFIX) \\$/;"	d
-`m_uvm_component_registry_internal	src/macros/uvm_object_defines.svh	/^`define m_uvm_component_registry_internal(T,S) \\$/;"	d
-`m_uvm_component_registry_param	src/macros/uvm_object_defines.svh	/^`define m_uvm_component_registry_param(T) \\$/;"	d
-`m_uvm_get_type_name_func	src/macros/uvm_object_defines.svh	/^`define m_uvm_get_type_name_func(T) \\$/;"	d
-`m_uvm_object_create_func	src/macros/uvm_object_defines.svh	/^`define m_uvm_object_create_func(T) \\$/;"	d
-`m_uvm_object_registry_internal	src/macros/uvm_object_defines.svh	/^`define m_uvm_object_registry_internal(T,S) \\$/;"	d
-`m_uvm_object_registry_param	src/macros/uvm_object_defines.svh	/^`define m_uvm_object_registry_param(T) \\$/;"	d
-`m_uvm_print_int	src/macros/uvm_object_defines.svh	/^`define m_uvm_print_int(ARG,FLAG) \\$/;"	d
-`m_uvm_record_int	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_int(ARG,FLAG) \\$/;"	d
-`m_uvm_record_object	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_object(ARG,FLAG) \\$/;"	d
-`m_uvm_record_qda_enum	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_qda_enum(ARG, FLAG, SZ) \\$/;"	d
-`m_uvm_record_qda_int	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_qda_int(ARG, FLAG, SZ) \\$/;"	d
-`m_uvm_record_qda_object	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_qda_object(ARG, FLAG, SZ) \\$/;"	d
-`m_uvm_record_qda_string	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_qda_string(ARG, FLAG, SZ) \\$/;"	d
-`m_uvm_record_string	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_string(ARG,STR,FLAG) \\$/;"	d
-`m_uvm_register_sequence	src/macros/uvm_deprecated_defines.svh	/^`define m_uvm_register_sequence(TYPE_NAME, SEQUENCER) \\$/;"	d
-`m_uvm_task_phase	src/macros/uvm_phase_defines.svh	/^`define m_uvm_task_phase(PHASE,COMP,PREFIX) \\$/;"	d
 `m_uvm_timeout_overridable	src/base/uvm_root.svh	/^  static bit m_uvm_timeout_overridable = 1;$/;"	v
-`m_uvm_topdown_phase	src/macros/uvm_phase_defines.svh	/^`define m_uvm_topdown_phase(PHASE,COMP,PREFIX) \\$/;"	d
 `m_volatile	src/reg/uvm_reg_field.svh	/^   local bit             m_volatile;$/;"	v
 `m_vregs	src/reg/uvm_mem.svh	/^   local bit               m_vregs[uvm_vreg];$/;"	v
 `m_wait_for_grant_semaphore	src/seq/uvm_sequence_base.svh	/^            int                m_wait_for_grant_semaphore;$/;"	v
@@ -1754,284 +1750,8 @@ __m_uvm_field_automation	src/base/uvm_object.svh	/^function void uvm_object::__m
 `user_format	src/base/uvm_printer.svh	/^  string user_format;$/;"	v
 `user_selection	src/seq/uvm_sequence_library.svh	/^          int user_selection;$/;"	v
 `uvm_aa_string_key	src/base/uvm_object_globals.svh	/^string uvm_aa_string_key;$/;"	v
-`uvm_add_to_seq_lib	src/macros/uvm_sequence_defines.svh	/^`define uvm_add_to_seq_lib(TYPE,LIBTYPE) \\$/;"	d
-`uvm_analysis_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_analysis_imp_decl(SFX) \\$/;"	d
-`uvm_blocking_get_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_get_imp_decl(SFX) \\$/;"	d
-`uvm_blocking_get_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_get_peek_imp_decl(SFX) \\$/;"	d
-`uvm_blocking_master_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_master_imp_decl(SFX) \\$/;"	d
-`uvm_blocking_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_peek_imp_decl(SFX) \\$/;"	d
-`uvm_blocking_put_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_put_imp_decl(SFX) \\$/;"	d
-`uvm_blocking_slave_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_slave_imp_decl(SFX) \\$/;"	d
-`uvm_blocking_transport_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_transport_imp_decl(SFX) \\$/;"	d
-`uvm_builtin_bottomup_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_builtin_bottomup_phase(PHASE) \\$/;"	d
-`uvm_builtin_task_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_builtin_task_phase(PHASE) \\$/;"	d
-`uvm_builtin_topdown_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_builtin_topdown_phase(PHASE) \\$/;"	d
-`uvm_cb_trace	src/macros/uvm_callback_defines.svh	/^`define uvm_cb_trace(OBJ,CB,OPER) \/* null *\/$/;"	d
-`uvm_cb_trace	src/macros/uvm_callback_defines.svh	/^`define uvm_cb_trace(OBJ,CB,OPER) \\$/;"	d
-`uvm_cb_trace_noobj	src/macros/uvm_callback_defines.svh	/^`define uvm_cb_trace_noobj(CB,OPER) \/* null *\/$/;"	d
-`uvm_cb_trace_noobj	src/macros/uvm_callback_defines.svh	/^`define uvm_cb_trace_noobj(CB,OPER) \\$/;"	d
-`uvm_component_param_utils	src/macros/uvm_object_defines.svh	/^`define uvm_component_param_utils(T) \\$/;"	d
-`uvm_component_param_utils	src/macros/uvm_object_defines.svh	/^`define uvm_component_param_utils(T)$/;"	d
-`uvm_component_param_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_component_param_utils_begin(T) \\$/;"	d
-`uvm_component_param_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_component_param_utils_begin(T)$/;"	d
-`uvm_component_registry	src/macros/uvm_object_defines.svh	/^`define uvm_component_registry(T,S) \\$/;"	d
-`uvm_component_utils	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils(T) \\$/;"	d
-`uvm_component_utils	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils(T)$/;"	d
-`uvm_component_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils_begin(T) \\$/;"	d
-`uvm_component_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils_begin(T)$/;"	d
-`uvm_component_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils_end \\$/;"	d
-`uvm_component_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils_end$/;"	d
-`uvm_create	src/macros/uvm_sequence_defines.svh	/^`define uvm_create(SEQ_OR_ITEM) \\$/;"	d
-`uvm_create_on	src/macros/uvm_sequence_defines.svh	/^`define uvm_create_on(SEQ_OR_ITEM, SEQR) \\$/;"	d
-`uvm_create_seq	src/macros/uvm_sequence_defines.svh	/^`define uvm_create_seq(UVM_SEQ, SEQR_CONS_IF) \\$/;"	d
-`uvm_declare_p_sequencer	src/macros/uvm_sequence_defines.svh	/^`define uvm_declare_p_sequencer(SEQUENCER) \\$/;"	d
-`uvm_declare_sequence_lib	src/macros/uvm_deprecated_defines.svh	/^`define uvm_declare_sequence_lib \\$/;"	d
-`uvm_delay	src/uvm_macros.svh	/^`define uvm_delay(TIME) #(TIME);$/;"	d
-`uvm_do	src/macros/uvm_sequence_defines.svh	/^`define uvm_do(SEQ_OR_ITEM) \\$/;"	d
-`uvm_do_callbacks	src/macros/uvm_callback_defines.svh	/^`define uvm_do_callbacks(T,CB,METHOD) \\$/;"	d
-`uvm_do_callbacks_exit_on	src/macros/uvm_callback_defines.svh	/^`define uvm_do_callbacks_exit_on(T,CB,METHOD,VAL) \\$/;"	d
-`uvm_do_obj_callbacks	src/macros/uvm_callback_defines.svh	/^`define uvm_do_obj_callbacks(T,CB,OBJ,METHOD) \\$/;"	d
-`uvm_do_obj_callbacks_exit_on	src/macros/uvm_callback_defines.svh	/^`define uvm_do_obj_callbacks_exit_on(T,CB,OBJ,METHOD,VAL) \\$/;"	d
-`uvm_do_on	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_on(SEQ_OR_ITEM, SEQR) \\$/;"	d
-`uvm_do_on_pri	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_on_pri(SEQ_OR_ITEM, SEQR, PRIORITY) \\$/;"	d
-`uvm_do_on_pri_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_on_pri_with(SEQ_OR_ITEM, SEQR, PRIORITY, CONSTRAINTS) \\$/;"	d
-`uvm_do_on_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_on_with(SEQ_OR_ITEM, SEQR, CONSTRAINTS) \\$/;"	d
-`uvm_do_pri	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_pri(SEQ_OR_ITEM, PRIORITY) \\$/;"	d
-`uvm_do_pri_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_pri_with(SEQ_OR_ITEM, PRIORITY, CONSTRAINTS) \\$/;"	d
-`uvm_do_seq	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_seq(UVM_SEQ, SEQR_CONS_IF) \\$/;"	d
-`uvm_do_seq_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_seq_with(UVM_SEQ, SEQR_CONS_IF, CONSTRAINTS) \\$/;"	d
-`uvm_do_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_with(SEQ_OR_ITEM, CONSTRAINTS) \\$/;"	d
-`uvm_end_package	src/macros/uvm_deprecated_defines.svh	/^`define uvm_end_package \\$/;"	d
-`uvm_error	src/macros/uvm_message_defines.svh	/^`define uvm_error(ID, MSG) \\$/;"	d
-`uvm_error_begin	src/macros/uvm_message_defines.svh	/^`define uvm_error_begin(ID, MSG, RM = __uvm_msg) \\$/;"	d
-`uvm_error_context	src/macros/uvm_message_defines.svh	/^`define uvm_error_context(ID, MSG, RO) \\$/;"	d
-`uvm_error_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_error_context_begin(ID, MSG, RO, RM = __uvm_msg) \\$/;"	d
-`uvm_error_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_error_context_end \\$/;"	d
-`uvm_error_end	src/macros/uvm_message_defines.svh	/^`define uvm_error_end \\$/;"	d
-`uvm_fatal	src/macros/uvm_message_defines.svh	/^`define uvm_fatal(ID, MSG) \\$/;"	d
-`uvm_fatal_begin	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_begin(ID, MSG, RM = __uvm_msg) \\$/;"	d
-`uvm_fatal_context	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_context(ID, MSG, RO) \\$/;"	d
-`uvm_fatal_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_context_begin(ID, MSG, RO, RM = __uvm_msg) \\$/;"	d
-`uvm_fatal_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_context_end \\$/;"	d
-`uvm_fatal_end	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_end \\$/;"	d
-`uvm_field_aa_int_byte	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_byte(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_byte	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_byte(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_byte_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_byte_unsigned(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_byte_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_byte_unsigned(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_enumkey	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_enumkey(KEY, ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_int(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_int(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_int_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_int_unsigned(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_int_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_int_unsigned(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_integer	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_integer(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_integer	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_integer(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_integer_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_integer_unsigned(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_integer_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_integer_unsigned(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_key	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_key(KEY, ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_key	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_key(KEY, ARG, FLAG)$/;"	d
-`uvm_field_aa_int_longint	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_longint(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_longint	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_longint(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_longint_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_longint_unsigned(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_longint_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_longint_unsigned(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_shortint	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_shortint(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_shortint	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_shortint(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_shortint_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_shortint_unsigned(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_shortint_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_shortint_unsigned(ARG, FLAG)$/;"	d
-`uvm_field_aa_int_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_string(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_int_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_string(ARG, FLAG)$/;"	d
-`uvm_field_aa_object_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_object_int(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_object_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_object_int(ARG, FLAG)$/;"	d
-`uvm_field_aa_object_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_object_string(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_object_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_object_string(ARG, FLAG)$/;"	d
-`uvm_field_aa_string_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_string_int(ARG, FLAG)$/;"	d
-`uvm_field_aa_string_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_string_string(ARG, FLAG) \\$/;"	d
-`uvm_field_aa_string_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_string_string(ARG, FLAG)$/;"	d
-`uvm_field_array_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_enum(ARG,FLAG)$/;"	d
-`uvm_field_array_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_enum(T,ARG,FLAG) \\$/;"	d
-`uvm_field_array_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_int(ARG,FLAG) \\$/;"	d
-`uvm_field_array_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_int(ARG,FLAG)$/;"	d
-`uvm_field_array_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_object(ARG,FLAG) \\$/;"	d
-`uvm_field_array_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_object(ARG,FLAG)$/;"	d
-`uvm_field_array_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_string(ARG,FLAG) \\$/;"	d
-`uvm_field_array_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_string(ARG,FLAG)$/;"	d
-`uvm_field_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_enum(T,ARG,FLAG) \\$/;"	d
-`uvm_field_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_enum(T,ARG,FLAG)$/;"	d
-`uvm_field_event	src/macros/uvm_object_defines.svh	/^`define uvm_field_event(ARG,FLAG) \\$/;"	d
-`uvm_field_event	src/macros/uvm_object_defines.svh	/^`define uvm_field_event(ARG,FLAG)$/;"	d
-`uvm_field_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_int(ARG,FLAG) \\$/;"	d
-`uvm_field_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_int(ARG,FLAG)$/;"	d
-`uvm_field_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_object(ARG,FLAG) \\$/;"	d
-`uvm_field_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_object(ARG,FLAG)$/;"	d
-`uvm_field_queue_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_enum(ARG,FLAG)$/;"	d
-`uvm_field_queue_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_enum(T,ARG,FLAG) \\$/;"	d
-`uvm_field_queue_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_int(ARG,FLAG) \\$/;"	d
-`uvm_field_queue_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_int(ARG,FLAG)$/;"	d
-`uvm_field_queue_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_object(ARG,FLAG) \\$/;"	d
-`uvm_field_queue_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_object(ARG,FLAG)$/;"	d
-`uvm_field_queue_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_string(ARG,FLAG) \\$/;"	d
-`uvm_field_queue_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_string(ARG,FLAG)$/;"	d
-`uvm_field_real	src/macros/uvm_object_defines.svh	/^`define uvm_field_real(ARG,FLAG) \\$/;"	d
-`uvm_field_real	src/macros/uvm_object_defines.svh	/^`define uvm_field_real(ARG,FLAG)$/;"	d
-`uvm_field_sarray_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_enum(ARG,FLAG)$/;"	d
-`uvm_field_sarray_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_enum(T,ARG,FLAG) \\$/;"	d
-`uvm_field_sarray_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_int(ARG,FLAG) \\$/;"	d
-`uvm_field_sarray_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_int(ARG,FLAG)$/;"	d
-`uvm_field_sarray_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_object(ARG,FLAG) \\$/;"	d
-`uvm_field_sarray_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_object(ARG,FLAG)$/;"	d
-`uvm_field_sarray_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_string(ARG,FLAG) \\$/;"	d
-`uvm_field_sarray_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_string(ARG,FLAG)$/;"	d
-`uvm_field_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_string(ARG,FLAG) \\$/;"	d
-`uvm_field_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_string(ARG,FLAG)$/;"	d
-`uvm_field_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_field_utils_begin(T) $/;"	d
-`uvm_field_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_field_utils_begin(T) \\$/;"	d
-`uvm_field_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_field_utils_end $/;"	d
-`uvm_field_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_field_utils_end \\$/;"	d
-`uvm_file	src/macros/uvm_message_defines.svh	/^`define uvm_file ""$/;"	d
-`uvm_file	src/macros/uvm_message_defines.svh	/^`define uvm_file `__FILE__$/;"	d
-`uvm_get_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_get_imp_decl(SFX) \\$/;"	d
-`uvm_get_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_get_peek_imp_decl(SFX) \\$/;"	d
 `uvm_global_random_seed	src/base/uvm_misc.svh	/^int unsigned uvm_global_random_seed = $urandom;$/;"	v
-`uvm_info	src/macros/uvm_message_defines.svh	/^`define uvm_info(ID, MSG, VERBOSITY) \\$/;"	d
-`uvm_info_begin	src/macros/uvm_message_defines.svh	/^`define uvm_info_begin(ID, MSG, VERBOSITY, RM = __uvm_msg) \\$/;"	d
-`uvm_info_context	src/macros/uvm_message_defines.svh	/^`define uvm_info_context(ID, MSG, VERBOSITY, RO) \\$/;"	d
-`uvm_info_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_info_context_begin(ID, MSG, VERBOSITY, RO, RM = __uvm_msg) \\$/;"	d
-`uvm_info_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_info_context_end \\$/;"	d
-`uvm_info_end	src/macros/uvm_message_defines.svh	/^`define uvm_info_end \\$/;"	d
-`uvm_line	src/macros/uvm_message_defines.svh	/^`define uvm_line 0$/;"	d
-`uvm_line	src/macros/uvm_message_defines.svh	/^`define uvm_line `__LINE__$/;"	d
-`uvm_master_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_master_imp_decl(SFX) \\$/;"	d
-`uvm_message_add_int	src/macros/uvm_message_defines.svh	/^`define uvm_message_add_int(VAR, RADIX, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD)) \\$/;"	d
-`uvm_message_add_object	src/macros/uvm_message_defines.svh	/^`define uvm_message_add_object(VAR, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD)) \\$/;"	d
-`uvm_message_add_string	src/macros/uvm_message_defines.svh	/^`define uvm_message_add_string(VAR, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD)) \\$/;"	d
-`uvm_message_add_tag	src/macros/uvm_message_defines.svh	/^`define uvm_message_add_tag(NAME, VALUE, ACTION=(UVM_LOG|UVM_RM_RECORD)) \\$/;"	d
-`uvm_message_begin	src/macros/uvm_message_defines.svh	/^`define uvm_message_begin(SEVERITY, ID, MSG, VERBOSITY, FILE, LINE, RM) \\$/;"	d
-`uvm_message_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_message_context_begin(SEVERITY, ID, MSG, VERBOSITY, FILE, LINE, RO, RM) \\$/;"	d
-`uvm_message_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_message_context_end \\$/;"	d
-`uvm_message_end	src/macros/uvm_message_defines.svh	/^`define uvm_message_end \\$/;"	d
-`uvm_new_func	src/macros/uvm_object_defines.svh	/^`define uvm_new_func \\$/;"	d
-`uvm_non_blocking_transport_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_non_blocking_transport_imp_decl(SFX) \\$/;"	d
-`uvm_nonblocking_get_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_get_imp_decl(SFX) \\$/;"	d
-`uvm_nonblocking_get_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_get_peek_imp_decl(SFX) \\$/;"	d
-`uvm_nonblocking_master_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_master_imp_decl(SFX) \\$/;"	d
-`uvm_nonblocking_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_peek_imp_decl(SFX) \\$/;"	d
-`uvm_nonblocking_put_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_put_imp_decl(SFX) \\$/;"	d
-`uvm_nonblocking_slave_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_slave_imp_decl(SFX) \\$/;"	d
-`uvm_nonblocking_transport_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_transport_imp_decl(SFX) \\$/;"	d
-`uvm_object_param_utils	src/macros/uvm_object_defines.svh	/^`define uvm_object_param_utils(T) $/;"	d
-`uvm_object_param_utils	src/macros/uvm_object_defines.svh	/^`define uvm_object_param_utils(T) \\$/;"	d
-`uvm_object_param_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_object_param_utils_begin(T) $/;"	d
-`uvm_object_param_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_object_param_utils_begin(T) \\$/;"	d
-`uvm_object_registry	src/macros/uvm_object_defines.svh	/^`define uvm_object_registry(T,S) \\$/;"	d
-`uvm_object_utils	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils(T) $/;"	d
-`uvm_object_utils	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils(T) \\$/;"	d
-`uvm_object_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils_begin(T) $/;"	d
-`uvm_object_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils_begin(T) \\$/;"	d
-`uvm_object_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils_end \\$/;"	d
-`uvm_object_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils_end$/;"	d
-`uvm_pack_array	src/macros/uvm_object_defines.svh	/^`define uvm_pack_array(VAR) \\$/;"	d
-`uvm_pack_arrayN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_arrayN(VAR,SIZE) \\$/;"	d
-`uvm_pack_enum	src/macros/uvm_object_defines.svh	/^`define uvm_pack_enum(VAR) \\$/;"	d
-`uvm_pack_enumN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_enumN(VAR,SIZE) \\$/;"	d
-`uvm_pack_int	src/macros/uvm_object_defines.svh	/^`define uvm_pack_int(VAR) \\$/;"	d
-`uvm_pack_intN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_intN(VAR,SIZE) \\$/;"	d
-`uvm_pack_queue	src/macros/uvm_object_defines.svh	/^`define uvm_pack_queue(VAR) \\$/;"	d
-`uvm_pack_queueN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_queueN(VAR,SIZE) \\$/;"	d
-`uvm_pack_real	src/macros/uvm_object_defines.svh	/^`define uvm_pack_real(VAR) \\$/;"	d
-`uvm_pack_sarray	src/macros/uvm_object_defines.svh	/^`define uvm_pack_sarray(VAR)  \\$/;"	d
-`uvm_pack_sarrayN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_sarrayN(VAR,SIZE) \\$/;"	d
-`uvm_pack_string	src/macros/uvm_object_defines.svh	/^`define uvm_pack_string(VAR) \\$/;"	d
-`uvm_package	src/macros/uvm_deprecated_defines.svh	/^`define uvm_package(PKG) \\$/;"	d
-`uvm_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_peek_imp_decl(SFX) \\$/;"	d
-`uvm_print_aa_int_key4	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_int_key4(KEY, F, R, P) \\$/;"	d
-`uvm_print_aa_int_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_int_object(F,FLAG) \\$/;"	d
-`uvm_print_aa_int_object3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_int_object3(F, P,FLAG) \\$/;"	d
-`uvm_print_aa_string_int	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_int(F) \\$/;"	d
-`uvm_print_aa_string_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_int3(F, R, P) \\$/;"	d
-`uvm_print_aa_string_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_object(F,FLAG) \\$/;"	d
-`uvm_print_aa_string_object3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_object3(F, P,FLAG) \\$/;"	d
-`uvm_print_aa_string_string	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_string(F) \\$/;"	d
-`uvm_print_aa_string_string2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_string2(F, P) \\$/;"	d
-`uvm_print_array_int	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_int(F, R) \\$/;"	d
-`uvm_print_array_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_int3(F, R, P) \\$/;"	d
-`uvm_print_array_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_object(F,FLAG) \\$/;"	d
-`uvm_print_array_object3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_object3(F, P,FLAG) \\$/;"	d
-`uvm_print_array_string	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_string(F) \\$/;"	d
-`uvm_print_array_string2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_string2(F, P) \\$/;"	d
-`uvm_print_enum	src/macros/uvm_printer_defines.svh	/^`define uvm_print_enum(T, F, NM, P) \\$/;"	d
-`uvm_print_int	src/macros/uvm_printer_defines.svh	/^`define uvm_print_int(F, R) \\$/;"	d
-`uvm_print_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_int3(F, R, P) \\$/;"	d
-`uvm_print_int4	src/macros/uvm_printer_defines.svh	/^`define uvm_print_int4(F, R, NM, P) \\$/;"	d
-`uvm_print_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object(F) \\$/;"	d
-`uvm_print_object2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object2(F, P) \\$/;"	d
-`uvm_print_object_qda4	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object_qda4(F, P, T,FLAG) \\$/;"	d
-`uvm_print_object_queue	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object_queue(F,FLAG) \\$/;"	d
-`uvm_print_object_queue3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object_queue3(F, P,FLAG) \\$/;"	d
-`uvm_print_qda_enum	src/macros/uvm_printer_defines.svh	/^`define uvm_print_qda_enum(F, P, T, ET) \\$/;"	d
-`uvm_print_qda_int4	src/macros/uvm_printer_defines.svh	/^`define uvm_print_qda_int4(F, R, P, T) \\$/;"	d
-`uvm_print_queue_int	src/macros/uvm_printer_defines.svh	/^`define uvm_print_queue_int(F, R) \\$/;"	d
-`uvm_print_queue_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_queue_int3(F, R, P) \\$/;"	d
-`uvm_print_sarray_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_sarray_int3(F, R, P) \\$/;"	d
-`uvm_print_sarray_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_sarray_object(F,FLAG) \\$/;"	d
-`uvm_print_sarray_object3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_sarray_object3(F, P,FLAG) \\$/;"	d
-`uvm_print_sarray_string2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_sarray_string2(F, P) \\$/;"	d
-`uvm_print_string	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string(F) \\$/;"	d
-`uvm_print_string2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string2(F, P) \\$/;"	d
-`uvm_print_string_qda3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string_qda3(F, P, T) \\$/;"	d
-`uvm_print_string_queue	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string_queue(F) \\$/;"	d
-`uvm_print_string_queue2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string_queue2(F, P) \\$/;"	d
-`uvm_put_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_put_imp_decl(SFX) \\$/;"	d
-`uvm_rand_send	src/macros/uvm_sequence_defines.svh	/^`define uvm_rand_send(SEQ_OR_ITEM) \\$/;"	d
-`uvm_rand_send_pri	src/macros/uvm_sequence_defines.svh	/^`define uvm_rand_send_pri(SEQ_OR_ITEM, PRIORITY) \\$/;"	d
-`uvm_rand_send_pri_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_rand_send_pri_with(SEQ_OR_ITEM, PRIORITY, CONSTRAINTS) \\$/;"	d
-`uvm_rand_send_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_rand_send_with(SEQ_OR_ITEM, CONSTRAINTS) \\$/;"	d
-`uvm_record_attribute	src/macros/uvm_object_defines.svh	/^    `define uvm_record_attribute(TR_HANDLE,NAME,VALUE) \\$/;"	d
-`uvm_record_field	src/macros/uvm_object_defines.svh	/^`define uvm_record_field(NAME,VALUE) \\$/;"	d
-`uvm_record_int	src/macros/uvm_object_defines.svh	/^  `define uvm_record_int(NAME,VALUE,SIZE,RADIX = UVM_NORADIX) \\$/;"	d
-`uvm_record_real	src/macros/uvm_object_defines.svh	/^  `define uvm_record_real(NAME,VALUE) \\$/;"	d
-`uvm_record_string	src/macros/uvm_object_defines.svh	/^  `define uvm_record_string(NAME,VALUE) \\$/;"	d
-`uvm_record_time	src/macros/uvm_object_defines.svh	/^  `define uvm_record_time(NAME,VALUE) \\$/;"	d
-`uvm_register_cb	src/macros/uvm_callback_defines.svh	/^`define uvm_register_cb(T,CB) \\$/;"	d
-`uvm_send	src/macros/uvm_sequence_defines.svh	/^`define uvm_send(SEQ_OR_ITEM) \\$/;"	d
-`uvm_send_pri	src/macros/uvm_sequence_defines.svh	/^`define uvm_send_pri(SEQ_OR_ITEM, PRIORITY) \\$/;"	d
-`uvm_sequence_library_package	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequence_library_package(PKG_NAME) \\$/;"	d
-`uvm_sequence_library_utils	src/macros/uvm_sequence_defines.svh	/^`define uvm_sequence_library_utils(TYPE) \\$/;"	d
-`uvm_sequence_utils	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequence_utils(TYPE_NAME, SEQUENCER) \\$/;"	d
-`uvm_sequence_utils_begin	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequence_utils_begin(TYPE_NAME, SEQUENCER) \\$/;"	d
-`uvm_sequence_utils_end	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequence_utils_end \\$/;"	d
-`uvm_sequencer_param_utils	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_param_utils(TYPE_NAME) \\$/;"	d
-`uvm_sequencer_param_utils_begin	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_param_utils_begin(TYPE_NAME) \\$/;"	d
-`uvm_sequencer_utils	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_utils(TYPE_NAME) \\$/;"	d
-`uvm_sequencer_utils_begin	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_utils_begin(TYPE_NAME) \\$/;"	d
-`uvm_sequencer_utils_end	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_utils_end \\$/;"	d
-`uvm_set_super_type	src/macros/uvm_callback_defines.svh	/^`define uvm_set_super_type(T,ST) \\$/;"	d
-`uvm_slave_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_slave_imp_decl(SFX) \\$/;"	d
 `uvm_start_uvm_declarations	src/base/uvm_object_globals.svh	/^bit uvm_start_uvm_declarations = 1;$/;"	v
-`uvm_transport_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_transport_imp_decl(SFX) \\$/;"	d
-`uvm_typename	src/uvm_macros.svh	/^`define uvm_typename(X) $typename(X)$/;"	d
-`uvm_typename	src/uvm_macros.svh	/^`define uvm_typename(X) $typename(X,39)$/;"	d
-`uvm_unpack_array	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_array(VAR) \\$/;"	d
-`uvm_unpack_arrayN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_arrayN(VAR,SIZE) \\$/;"	d
-`uvm_unpack_enum	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_enum(VAR,TYPE) \\$/;"	d
-`uvm_unpack_enumN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_enumN(VAR,SIZE,TYPE) \\$/;"	d
-`uvm_unpack_int	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_int(VAR) \\$/;"	d
-`uvm_unpack_intN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_intN(VAR,SIZE) \\$/;"	d
-`uvm_unpack_queue	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_queue(VAR) \\$/;"	d
-`uvm_unpack_queueN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_queueN(VAR,SIZE) \\$/;"	d
-`uvm_unpack_real	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_real(VAR) \\$/;"	d
-`uvm_unpack_sarray	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_sarray(VAR)  \\$/;"	d
-`uvm_unpack_sarrayN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_sarrayN(VAR,SIZE) \\$/;"	d
-`uvm_unpack_string	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_string(VAR) \\$/;"	d
-`uvm_update_sequence_lib	src/macros/uvm_deprecated_defines.svh	/^`define uvm_update_sequence_lib \\$/;"	d
-`uvm_update_sequence_lib_and_item	src/macros/uvm_deprecated_defines.svh	/^`define uvm_update_sequence_lib_and_item(USER_ITEM) \\$/;"	d
-`uvm_user_bottomup_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_user_bottomup_phase(PHASE,COMP,PREFIX) \\$/;"	d
-`uvm_user_task_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_user_task_phase(PHASE,COMP,PREFIX) \\$/;"	d
-`uvm_user_topdown_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_user_topdown_phase(PHASE,COMP,PREFIX) \\$/;"	d
-`uvm_warning	src/macros/uvm_message_defines.svh	/^`define uvm_warning(ID, MSG) \\$/;"	d
-`uvm_warning_begin	src/macros/uvm_message_defines.svh	/^`define uvm_warning_begin(ID, MSG, RM = __uvm_msg) \\$/;"	d
-`uvm_warning_context	src/macros/uvm_message_defines.svh	/^`define uvm_warning_context(ID, MSG, RO) \\$/;"	d
-`uvm_warning_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_warning_context_begin(ID, MSG, RO, RM = __uvm_msg) \\$/;"	d
-`uvm_warning_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_warning_context_end \\$/;"	d
-`uvm_warning_end	src/macros/uvm_message_defines.svh	/^`define uvm_warning_end \\$/;"	d
 `v	src/base/uvm_component.svh	/^  string v;$/;"	v
 `v	src/base/uvm_misc.svh	/^    string v;$/;"	v
 `v	src/base/uvm_packer.svh	/^  byte v;$/;"	v
@@ -2167,6 +1887,9 @@ allocate	src/reg/uvm_vreg.svh	/^function uvm_mem_region uvm_vreg::allocate(longi
 analysis_write	src/seq/uvm_sequencer_base.svh	/^function void uvm_sequencer_base::analysis_write(uvm_sequence_item t);$/;"	f
 analysis_write	src/seq/uvm_sequencer_param_base.svh	/^function void uvm_sequencer_param_base::analysis_write(uvm_sequence_item t);$/;"	f
 apply_config_settings	src/base/uvm_component.svh	/^function void uvm_component::apply_config_settings (bit verbose=0);$/;"	f
+argc_total	src/dpi/uvm_svcmd_dpi.c	/^int argc_total;$/;"	v
+argv_ptr	src/dpi/uvm_svcmd_dpi.c	/^char ** argv_ptr=NULL;$/;"	v
+argv_stack	src/dpi/uvm_svcmd_dpi.c	/^char** argv_stack=NULL;$/;"	v
 backdoor_read	src/reg/uvm_mem.svh	/^task uvm_mem::backdoor_read(uvm_reg_item rw);$/;"	t
 backdoor_read_func	src/reg/uvm_mem.svh	/^function uvm_status_e uvm_mem::backdoor_read_func(uvm_reg_item rw);$/;"	f
 backdoor_read_func	src/reg/uvm_reg.svh	/^function uvm_status_e uvm_reg::backdoor_read_func(uvm_reg_item rw);$/;"	f
@@ -2202,6 +1925,7 @@ clear_hdl_path	src/reg/uvm_reg.svh	/^function void uvm_reg::clear_hdl_path(strin
 clear_hdl_path	src/reg/uvm_reg_block.svh	/^function void uvm_reg_block::clear_hdl_path(string kind = "RTL");$/;"	f
 clear_hdl_path	src/reg/uvm_reg_file.svh	/^function void uvm_reg_file::clear_hdl_path(string kind = "RTL");$/;"	f
 clear_successors	src/base/uvm_phase.svh	/^function void uvm_phase::clear_successors(uvm_phase_state state = UVM_PHASE_DORMANT, $/;"	f
+clear_value	src/dpi/uvm_hdl_inca.c	/^static void clear_value(p_vpi_vecval value) {$/;"	f	file:
 clone	src/base/uvm_component.svh	/^function uvm_object  uvm_component::clone ();$/;"	f
 clone	src/base/uvm_object.svh	/^function uvm_object uvm_object::clone();$/;"	f
 clone	src/reg/uvm_mem.svh	/^function uvm_object uvm_mem::clone();$/;"	f
@@ -2582,6 +2306,7 @@ index_error	src/base/uvm_packer.svh	/^function void uvm_packer::index_error(int 
 index_string	src/base/uvm_printer.svh	/^function string uvm_printer::index_string(int index, string name="");$/;"	f
 init_e	src/reg/uvm_mem.svh	/^   typedef enum {UNKNOWNS, ZEROES, ONES, ADDRESS, VALUE, INCR, DECR} init_e;$/;"	e
 init_sequence_library	src/seq/uvm_sequence_library.svh	/^function void uvm_sequence_library::init_sequence_library();$/;"	f
+int_str_max	src/dpi/uvm_common.c	/^int int_str_max ( int radix_bits ) {$/;"	f
 is	src/base/uvm_phase.svh	/^function bit uvm_phase::is(uvm_phase phase);$/;"	f
 is_active	src/base/uvm_transaction.svh	/^function bit uvm_transaction::is_active();$/;"	f
 is_after	src/base/uvm_phase.svh	/^function bit uvm_phase::is_after(uvm_phase phase);$/;"	f
@@ -2600,6 +2325,7 @@ is_known_access	src/reg/uvm_reg_field.svh	/^function bit uvm_reg_field::is_known
 is_locked	src/reg/uvm_reg_block.svh	/^function bit uvm_reg_block::is_locked();$/;"	f
 is_null	src/base/uvm_packer.svh	/^function bit uvm_packer::is_null();$/;"	f
 is_recording_enabled	src/base/uvm_transaction.svh	/^function bit uvm_transaction::is_recording_enabled ();$/;"	f
+is_valid_path_slice	src/dpi/uvm_hdl_inca.c	/^static int is_valid_path_slice(const char* path) {$/;"	f	file:
 is_volatile	src/reg/uvm_reg_field.svh	/^function bit uvm_reg_field::is_volatile();$/;"	f
 istop	src/base/uvm_printer.svh	/^function bit uvm_printer::istop ();$/;"	f
 item_done	src/seq/uvm_sequencer.svh	/^function void uvm_sequencer::item_done(RSP item = null);$/;"	f
@@ -2680,13 +2406,35 @@ m_unpack_post	src/base/uvm_object.svh	/^function void uvm_object::m_unpack_post 
 m_unpack_pre	src/base/uvm_object.svh	/^function void uvm_object::m_unpack_pre (inout uvm_packer packer);$/;"	f
 m_unregister_sequence	src/seq/uvm_sequencer_base.svh	/^function void uvm_sequencer_base::m_unregister_sequence(int sequence_id);$/;"	f
 m_update_lists	src/seq/uvm_sequencer_base.svh	/^function void uvm_sequencer_base::m_update_lists();$/;"	f
+m_uvm_bottomup_phase	src/macros/uvm_phase_defines.svh	/^`define m_uvm_bottomup_phase(PHASE,COMP,PREFIX) \\$/;"	d
+m_uvm_component_registry_internal	src/macros/uvm_object_defines.svh	/^`define m_uvm_component_registry_internal(T,S) \\$/;"	d
+m_uvm_component_registry_param	src/macros/uvm_object_defines.svh	/^`define m_uvm_component_registry_param(T) \\$/;"	d
 m_uvm_config_obj_misc	src/base/uvm_misc.svh	/^typedef uvm_config_db#(uvm_object) m_uvm_config_obj_misc;$/;"	e
+m_uvm_error	src/dpi/uvm_hdl_inca.c	/^static void m_uvm_error(const char *id, const char *msg, ...) {$/;"	f	file:
+m_uvm_get_object_handle	src/dpi/uvm_hdl_inca.c	/^static void m_uvm_get_object_handle(const char* path, vhpiHandleT *handle,int *language)$/;"	f	file:
+m_uvm_get_type_name_func	src/macros/uvm_object_defines.svh	/^`define m_uvm_get_type_name_func(T) \\$/;"	d
+m_uvm_object_create_func	src/macros/uvm_object_defines.svh	/^`define m_uvm_object_create_func(T) \\$/;"	d
+m_uvm_object_registry_internal	src/macros/uvm_object_defines.svh	/^`define m_uvm_object_registry_internal(T,S) \\$/;"	d
+m_uvm_object_registry_param	src/macros/uvm_object_defines.svh	/^`define m_uvm_object_registry_param(T) \\$/;"	d
+m_uvm_print_int	src/macros/uvm_object_defines.svh	/^`define m_uvm_print_int(ARG,FLAG) \\$/;"	d
+m_uvm_record_int	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_int(ARG,FLAG) \\$/;"	d
+m_uvm_record_object	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_object(ARG,FLAG) \\$/;"	d
+m_uvm_record_qda_enum	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_qda_enum(ARG, FLAG, SZ) \\$/;"	d
+m_uvm_record_qda_int	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_qda_int(ARG, FLAG, SZ) \\$/;"	d
+m_uvm_record_qda_object	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_qda_object(ARG, FLAG, SZ) \\$/;"	d
+m_uvm_record_qda_string	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_qda_string(ARG, FLAG, SZ) \\$/;"	d
+m_uvm_record_string	src/macros/uvm_object_defines.svh	/^`define m_uvm_record_string(ARG,STR,FLAG) \\$/;"	d
+m_uvm_register_sequence	src/macros/uvm_deprecated_defines.svh	/^`define m_uvm_register_sequence(TYPE_NAME, SEQUENCER) \\$/;"	d
+m_uvm_report_dpi	src/dpi/uvm_common.c	/^void m_uvm_report_dpi( int severity,$/;"	f
 m_uvm_resource_convert2string_converter	src/deprecated/uvm_resource_converter.svh	/^class m_uvm_resource_convert2string_converter#(type T=int) extends m_uvm_resource_converter#(T);$/;"	c
 m_uvm_resource_converter	src/base/uvm_resource.svh	/^typedef class m_uvm_resource_converter;$/;"	e
 m_uvm_resource_converter	src/deprecated/uvm_resource_converter.svh	/^class m_uvm_resource_converter #(type T=int);$/;"	c
 m_uvm_resource_default_converter	src/deprecated/uvm_resource_converter.svh	/^class m_uvm_resource_default_converter#(type T=int) extends m_uvm_resource_converter#(T);$/;"	c
 m_uvm_resource_default_converters	src/deprecated/uvm_resource_converter.svh	/^class m_uvm_resource_default_converters;$/;"	c
 m_uvm_resource_sprint_converter	src/deprecated/uvm_resource_converter.svh	/^class m_uvm_resource_sprint_converter#(type T=int) extends m_uvm_resource_converter#(T);$/;"	c
+m_uvm_task_phase	src/macros/uvm_phase_defines.svh	/^`define m_uvm_task_phase(PHASE,COMP,PREFIX) \\$/;"	d
+m_uvm_temp_print_buffer	src/dpi/uvm_hdl_inca.c	/^static char m_uvm_temp_print_buffer[1024];$/;"	v	file:
+m_uvm_topdown_phase	src/macros/uvm_phase_defines.svh	/^`define m_uvm_topdown_phase(PHASE,COMP,PREFIX) \\$/;"	d
 m_uvm_tr_stream_cfg	src/base/uvm_tr_stream.svh	/^class m_uvm_tr_stream_cfg;$/;"	c
 m_uvm_waiter	src/base/uvm_config_db.svh	/^class m_uvm_waiter;$/;"	c
 m_wait_arb_not_equal	src/seq/uvm_sequencer_base.svh	/^task uvm_sequencer_base::m_wait_arb_not_equal();$/;"	t
@@ -2736,6 +2484,7 @@ pack_object	src/base/uvm_packer.svh	/^function void uvm_packer::pack_object(uvm_
 pack_real	src/base/uvm_packer.svh	/^function void uvm_packer::pack_real(real value);$/;"	f
 pack_string	src/base/uvm_packer.svh	/^function void uvm_packer::pack_string(string value);$/;"	f
 pack_time	src/base/uvm_packer.svh	/^function void uvm_packer::pack_time(time value);$/;"	f
+partsel	src/dpi/uvm_hdl_questa.c	/^static int partsel = 0;$/;"	v	file:
 peek	src/reg/uvm_mem.svh	/^task uvm_mem::peek(output uvm_status_e      status,$/;"	t
 peek	src/reg/uvm_mem_mam.svh	/^task uvm_mem_region::peek(output uvm_status_e       status,$/;"	t
 peek	src/reg/uvm_reg.svh	/^task uvm_reg::peek(output uvm_status_e      status,$/;"	t
@@ -2785,6 +2534,7 @@ print_time	src/base/uvm_printer.svh	/^function void uvm_printer::print_time (str
 print_topology	src/base/uvm_root.svh	/^function void uvm_root::print_topology(uvm_printer printer=null);$/;"	f
 priority_e	src/base/uvm_resource.svh	/^  typedef enum { PRI_HIGH, PRI_LOW } priority_e;$/;"	e
 process_container_c	src/base/uvm_misc.svh	/^class process_container_c;$/;"	c
+push_data	src/dpi/uvm_svcmd_dpi.c	/^void push_data(int lvl,char *entry, int cmd) {$/;"	f
 put_bits	src/base/uvm_packer.svh	/^function void uvm_packer::put_bits (ref bit bitstream []);$/;"	f
 put_bytes	src/base/uvm_packer.svh	/^function void uvm_packer::put_bytes (ref byte unsigned bytestream []);$/;"	f
 put_ints	src/base/uvm_packer.svh	/^function void uvm_packer::put_ints (ref int unsigned intstream []);$/;"	f
@@ -3003,11 +2753,13 @@ update	src/reg/uvm_reg_block.svh	/^task uvm_reg_block::update(output uvm_status_
 user_priority_arbitration	src/seq/uvm_sequencer_base.svh	/^function integer uvm_sequencer_base::user_priority_arbitration(integer avail_sequences[$]);$/;"	f
 uvm_action	src/base/uvm_object_globals.svh	/^typedef int uvm_action;$/;"	e
 uvm_active_passive_enum	src/base/uvm_object_globals.svh	/^typedef enum bit { UVM_PASSIVE=0, UVM_ACTIVE=1 } uvm_active_passive_enum;$/;"	e
+uvm_add_to_seq_lib	src/macros/uvm_sequence_defines.svh	/^`define uvm_add_to_seq_lib(TYPE,LIBTYPE) \\$/;"	d
 uvm_agent	src/comps/uvm_agent.svh	/^virtual class uvm_agent extends uvm_component;$/;"	c
 uvm_algorithmic_comparator	src/comps/uvm_algorithmic_comparator.svh	/^class uvm_algorithmic_comparator #( type BEFORE=int,$/;"	c
 uvm_analysis_export	src/tlm1/uvm_analysis_port.svh	/^class uvm_analysis_export #(type T=int)$/;"	c
 uvm_analysis_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_analysis_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_analysis_imp	src/tlm1/uvm_analysis_port.svh	/^class uvm_analysis_imp #(type T=int, type IMP=int)$/;"	c
+uvm_analysis_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_analysis_imp_decl(SFX) \\$/;"	d
 uvm_analysis_port	src/tlm1/uvm_analysis_port.svh	/^class uvm_analysis_port # (type T = int)$/;"	c
 uvm_apprepend	src/base/uvm_misc.svh	/^typedef enum {UVM_APPEND, UVM_PREPEND} uvm_apprepend;$/;"	e
 uvm_barrier	src/base/uvm_barrier.svh	/^class uvm_barrier extends uvm_object;$/;"	c
@@ -3018,30 +2770,37 @@ uvm_bitstream_t	src/base/uvm_object_globals.svh	/^typedef logic signed [UVM_STRE
 uvm_blocking_get_export	src/tlm1/uvm_exports.svh	/^class uvm_blocking_get_export #(type T=int)$/;"	c
 uvm_blocking_get_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_blocking_get_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_blocking_get_imp	src/tlm1/uvm_imps.svh	/^class uvm_blocking_get_imp #(type T=int, type IMP=int)$/;"	c
+uvm_blocking_get_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_get_imp_decl(SFX) \\$/;"	d
 uvm_blocking_get_peek_export	src/tlm1/uvm_exports.svh	/^class uvm_blocking_get_peek_export #(type T=int)$/;"	c
 uvm_blocking_get_peek_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_blocking_get_peek_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_blocking_get_peek_imp	src/tlm1/uvm_imps.svh	/^class uvm_blocking_get_peek_imp #(type T=int, type IMP=int)$/;"	c
+uvm_blocking_get_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_get_peek_imp_decl(SFX) \\$/;"	d
 uvm_blocking_get_peek_port	src/tlm1/uvm_ports.svh	/^class uvm_blocking_get_peek_port #(type T=int)$/;"	c
 uvm_blocking_get_port	src/tlm1/uvm_ports.svh	/^class uvm_blocking_get_port #(type T=int)$/;"	c
 uvm_blocking_master_export	src/tlm1/uvm_exports.svh	/^class uvm_blocking_master_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_blocking_master_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_blocking_master_imp``SFX #(type REQ=int, type RSP=int, type IMP=int, \\$/;"	c
 uvm_blocking_master_imp	src/tlm1/uvm_imps.svh	/^class uvm_blocking_master_imp #(type REQ=int, type RSP=REQ, type IMP=int,$/;"	c
+uvm_blocking_master_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_master_imp_decl(SFX) \\$/;"	d
 uvm_blocking_master_port	src/tlm1/uvm_ports.svh	/^class uvm_blocking_master_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_blocking_peek_export	src/tlm1/uvm_exports.svh	/^class uvm_blocking_peek_export #(type T=int)$/;"	c
 uvm_blocking_peek_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_blocking_peek_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_blocking_peek_imp	src/tlm1/uvm_imps.svh	/^class uvm_blocking_peek_imp #(type T=int, type IMP=int)$/;"	c
+uvm_blocking_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_peek_imp_decl(SFX) \\$/;"	d
 uvm_blocking_peek_port	src/tlm1/uvm_ports.svh	/^class uvm_blocking_peek_port #(type T=int)$/;"	c
 uvm_blocking_put_export	src/tlm1/uvm_exports.svh	/^class uvm_blocking_put_export #(type T=int)$/;"	c
 uvm_blocking_put_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_blocking_put_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_blocking_put_imp	src/tlm1/uvm_imps.svh	/^class uvm_blocking_put_imp #(type T=int, type IMP=int)$/;"	c
+uvm_blocking_put_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_put_imp_decl(SFX) \\$/;"	d
 uvm_blocking_put_port	src/tlm1/uvm_ports.svh	/^class uvm_blocking_put_port #(type T=int)$/;"	c
 uvm_blocking_slave_export	src/tlm1/uvm_exports.svh	/^class uvm_blocking_slave_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_blocking_slave_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_blocking_slave_imp``SFX #(type REQ=int, type RSP=int, type IMP=int, \\$/;"	c
 uvm_blocking_slave_imp	src/tlm1/uvm_imps.svh	/^class uvm_blocking_slave_imp #(type REQ=int, type RSP=REQ, type IMP=int,$/;"	c
+uvm_blocking_slave_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_slave_imp_decl(SFX) \\$/;"	d
 uvm_blocking_slave_port	src/tlm1/uvm_ports.svh	/^class uvm_blocking_slave_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_blocking_transport_export	src/tlm1/uvm_exports.svh	/^class uvm_blocking_transport_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_blocking_transport_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_blocking_transport_imp``SFX #(type REQ=int, type RSP=int, type IMP=int) \\$/;"	c
 uvm_blocking_transport_imp	src/tlm1/uvm_imps.svh	/^class uvm_blocking_transport_imp #(type REQ=int, type RSP=REQ, type IMP=int)$/;"	c
+uvm_blocking_transport_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_blocking_transport_imp_decl(SFX) \\$/;"	d
 uvm_blocking_transport_port	src/tlm1/uvm_ports.svh	/^class uvm_blocking_transport_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_bogus_class	src/macros/uvm_deprecated_defines.svh	/^  class uvm_bogus_class extends uvm::uvm_sequence;\\$/;"	c
 uvm_bottom_up_visitor_adapter	src/base/uvm_traversal.svh	/^class uvm_bottom_up_visitor_adapter#(type STRUCTURE=uvm_component,VISITOR=uvm_visitor#(STRUCTURE)) extends $/;"	c
@@ -3052,6 +2811,9 @@ uvm_built_in_clone	src/comps/uvm_policies.svh	/^class uvm_built_in_clone #(type 
 uvm_built_in_comp	src/comps/uvm_policies.svh	/^class uvm_built_in_comp #(type T=int);$/;"	c
 uvm_built_in_converter	src/comps/uvm_policies.svh	/^class uvm_built_in_converter #(type T=int);$/;"	c
 uvm_built_in_pair	src/comps/uvm_pair.svh	/^class uvm_built_in_pair #(type T1=int, T2=T1) extends uvm_object;$/;"	c
+uvm_builtin_bottomup_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_builtin_bottomup_phase(PHASE) \\$/;"	d
+uvm_builtin_task_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_builtin_task_phase(PHASE) \\$/;"	d
+uvm_builtin_topdown_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_builtin_topdown_phase(PHASE) \\$/;"	d
 uvm_by_level_visitor_adapter	src/base/uvm_traversal.svh	/^class uvm_by_level_visitor_adapter#(type STRUCTURE=uvm_component,VISITOR=uvm_visitor#(STRUCTURE)) extends $/;"	c
 uvm_byte_rsrc	src/base/uvm_resource_specializations.svh	/^class uvm_byte_rsrc #(int unsigned N=1) extends uvm_resource #(bit[7:0][N-1:0]);$/;"	c
 uvm_callback	src/base/uvm_callback.svh	/^class uvm_callback extends uvm_object;$/;"	c
@@ -3062,6 +2824,10 @@ uvm_callbacks_base	src/base/uvm_callback.svh	/^class uvm_callbacks_base extends 
 uvm_callbacks_base	src/base/uvm_callback.svh	/^typedef class uvm_callbacks_base;$/;"	e
 uvm_callbacks_objection	src/base/uvm_objection.svh	/^typedef uvm_objection uvm_callbacks_objection;$/;"	e
 uvm_cause_effect_link	src/base/uvm_links.svh	/^class uvm_cause_effect_link extends uvm_link_base;$/;"	c
+uvm_cb_trace	src/macros/uvm_callback_defines.svh	/^`define uvm_cb_trace(OBJ,CB,OPER) \/* null *\/$/;"	d
+uvm_cb_trace	src/macros/uvm_callback_defines.svh	/^`define uvm_cb_trace(OBJ,CB,OPER) \\$/;"	d
+uvm_cb_trace_noobj	src/macros/uvm_callback_defines.svh	/^`define uvm_cb_trace_noobj(CB,OPER) \/* null *\/$/;"	d
+uvm_cb_trace_noobj	src/macros/uvm_callback_defines.svh	/^`define uvm_cb_trace_noobj(CB,OPER) \\$/;"	d
 uvm_check_phase	src/base/uvm_common_phases.svh	/^class uvm_check_phase extends uvm_bottomup_phase;$/;"	c
 uvm_check_phase	src/base/uvm_domain.svh	/^typedef class uvm_check_phase;$/;"	e
 uvm_class_clone	src/comps/uvm_policies.svh	/^class uvm_class_clone #(type T=int);$/;"	c
@@ -3087,9 +2853,20 @@ uvm_component	src/base/uvm_report_object.svh	/^typedef class uvm_component;$/;"	
 uvm_component	src/base/uvm_transaction.svh	/^typedef class uvm_component;$/;"	e
 uvm_component_name_check_visitor	src/base/uvm_coreservice.svh	/^typedef class uvm_component_name_check_visitor;$/;"	e
 uvm_component_name_check_visitor	src/base/uvm_traversal.svh	/^class uvm_component_name_check_visitor extends uvm_visitor#(uvm_component);$/;"	c
+uvm_component_param_utils	src/macros/uvm_object_defines.svh	/^`define uvm_component_param_utils(T) \\$/;"	d
+uvm_component_param_utils	src/macros/uvm_object_defines.svh	/^`define uvm_component_param_utils(T)$/;"	d
+uvm_component_param_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_component_param_utils_begin(T) \\$/;"	d
+uvm_component_param_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_component_param_utils_begin(T)$/;"	d
 uvm_component_proxy	src/base/uvm_root.svh	/^typedef class uvm_component_proxy;$/;"	e
 uvm_component_proxy	src/base/uvm_traversal.svh	/^class uvm_component_proxy extends uvm_structure_proxy#(uvm_component);$/;"	c
 uvm_component_registry	src/base/uvm_registry.svh	/^class uvm_component_registry #(type T=uvm_component, string Tname="<unknown>")$/;"	c
+uvm_component_registry	src/macros/uvm_object_defines.svh	/^`define uvm_component_registry(T,S) \\$/;"	d
+uvm_component_utils	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils(T) \\$/;"	d
+uvm_component_utils	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils(T)$/;"	d
+uvm_component_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils_begin(T) \\$/;"	d
+uvm_component_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils_begin(T)$/;"	d
+uvm_component_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils_end \\$/;"	d
+uvm_component_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_component_utils_end$/;"	d
 uvm_config_db	src/base/uvm_config_db.svh	/^class uvm_config_db#(type T=int) extends uvm_resource_db#(T);$/;"	c
 uvm_config_db	src/base/uvm_misc.svh	/^typedef class uvm_config_db;$/;"	e
 uvm_config_db_options	src/base/uvm_config_db.svh	/^class uvm_config_db_options;$/;"	c
@@ -3106,6 +2883,11 @@ uvm_connect_phase	src/base/uvm_common_phases.svh	/^class uvm_connect_phase exten
 uvm_connect_phase	src/base/uvm_domain.svh	/^typedef class uvm_connect_phase;$/;"	e
 uvm_coreservice_t	src/base/uvm_coreservice.svh	/^virtual class uvm_coreservice_t;$/;"	c
 uvm_coreservice_t	src/base/uvm_misc.svh	/^typedef class uvm_coreservice_t;$/;"	e
+uvm_create	src/macros/uvm_sequence_defines.svh	/^`define uvm_create(SEQ_OR_ITEM) \\$/;"	d
+uvm_create_on	src/macros/uvm_sequence_defines.svh	/^`define uvm_create_on(SEQ_OR_ITEM, SEQR) \\$/;"	d
+uvm_create_seq	src/macros/uvm_sequence_defines.svh	/^`define uvm_create_seq(UVM_SEQ, SEQR_CONS_IF) \\$/;"	d
+uvm_declare_p_sequencer	src/macros/uvm_sequence_defines.svh	/^`define uvm_declare_p_sequencer(SEQUENCER) \\$/;"	d
+uvm_declare_sequence_lib	src/macros/uvm_deprecated_defines.svh	/^`define uvm_declare_sequence_lib \\$/;"	d
 uvm_default_coreservice_t	src/base/uvm_coreservice.svh	/^class uvm_default_coreservice_t extends uvm_coreservice_t;$/;"	c
 uvm_default_driver_type	src/seq/uvm_seq.svh	/^typedef uvm_driver    #(uvm_sequence_item, uvm_sequence_item) uvm_default_driver_type;$/;"	e
 uvm_default_factory	src/base/uvm_coreservice.svh	/^typedef class uvm_default_factory;$/;"	e
@@ -3116,15 +2898,44 @@ uvm_default_report_server	src/base/uvm_report_server.svh	/^typedef class uvm_def
 uvm_default_sequence_type	src/seq/uvm_seq.svh	/^typedef uvm_sequence  #(uvm_sequence_item, uvm_sequence_item) uvm_default_sequence_type;$/;"	e
 uvm_default_sequencer_param_type	src/seq/uvm_seq.svh	/^typedef uvm_sequencer_param_base #(uvm_sequence_item, uvm_sequence_item) uvm_default_sequencer_param_type;$/;"	e
 uvm_default_sequencer_type	src/seq/uvm_seq.svh	/^typedef uvm_sequencer #(uvm_sequence_item, uvm_sequence_item) uvm_default_sequencer_type;$/;"	e
+uvm_delay	src/uvm_macros.svh	/^`define uvm_delay(TIME) #(TIME);$/;"	d
 uvm_derived_callbacks	src/base/uvm_callback.svh	/^class uvm_derived_callbacks#(type T=uvm_object, type ST=uvm_object, type CB=uvm_callback)$/;"	c
+uvm_do	src/macros/uvm_sequence_defines.svh	/^`define uvm_do(SEQ_OR_ITEM) \\$/;"	d
+uvm_do_callbacks	src/macros/uvm_callback_defines.svh	/^`define uvm_do_callbacks(T,CB,METHOD) \\$/;"	d
+uvm_do_callbacks_exit_on	src/macros/uvm_callback_defines.svh	/^`define uvm_do_callbacks_exit_on(T,CB,METHOD,VAL) \\$/;"	d
+uvm_do_obj_callbacks	src/macros/uvm_callback_defines.svh	/^`define uvm_do_obj_callbacks(T,CB,OBJ,METHOD) \\$/;"	d
+uvm_do_obj_callbacks_exit_on	src/macros/uvm_callback_defines.svh	/^`define uvm_do_obj_callbacks_exit_on(T,CB,OBJ,METHOD,VAL) \\$/;"	d
+uvm_do_on	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_on(SEQ_OR_ITEM, SEQR) \\$/;"	d
+uvm_do_on_pri	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_on_pri(SEQ_OR_ITEM, SEQR, PRIORITY) \\$/;"	d
+uvm_do_on_pri_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_on_pri_with(SEQ_OR_ITEM, SEQR, PRIORITY, CONSTRAINTS) \\$/;"	d
+uvm_do_on_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_on_with(SEQ_OR_ITEM, SEQR, CONSTRAINTS) \\$/;"	d
+uvm_do_pri	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_pri(SEQ_OR_ITEM, PRIORITY) \\$/;"	d
+uvm_do_pri_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_pri_with(SEQ_OR_ITEM, PRIORITY, CONSTRAINTS) \\$/;"	d
+uvm_do_seq	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_seq(UVM_SEQ, SEQR_CONS_IF) \\$/;"	d
+uvm_do_seq_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_seq_with(UVM_SEQ, SEQR_CONS_IF, CONSTRAINTS) \\$/;"	d
+uvm_do_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_do_with(SEQ_OR_ITEM, CONSTRAINTS) \\$/;"	d
 uvm_domain	src/base/uvm_domain.svh	/^class uvm_domain extends uvm_phase;$/;"	c
 uvm_domain	src/base/uvm_phase.svh	/^typedef class uvm_domain;$/;"	e
+uvm_dpi_get_next_arg_c	src/dpi/uvm_svcmd_dpi.c	/^const char *uvm_dpi_get_next_arg_c (int init) {$/;"	f
+uvm_dpi_get_tool_name_c	src/dpi/uvm_svcmd_dpi.c	/^extern char* uvm_dpi_get_tool_name_c ()$/;"	f
+uvm_dpi_get_tool_version_c	src/dpi/uvm_svcmd_dpi.c	/^extern char* uvm_dpi_get_tool_version_c ()$/;"	f
+uvm_dpi_regcomp	src/dpi/uvm_svcmd_dpi.c	/^extern regex_t* uvm_dpi_regcomp (char* pattern)$/;"	f
+uvm_dpi_regexec	src/dpi/uvm_svcmd_dpi.c	/^extern int uvm_dpi_regexec (regex_t* re, char* str)$/;"	f
+uvm_dpi_regfree	src/dpi/uvm_svcmd_dpi.c	/^extern void uvm_dpi_regfree (regex_t* re)$/;"	f
 uvm_driver	src/comps/uvm_driver.svh	/^class uvm_driver #(type REQ=uvm_sequence_item,$/;"	c
+uvm_dump_re_cache	src/dpi/uvm_regex.cc	/^void uvm_dump_re_cache()$/;"	f
 uvm_end_of_elaboration_phase	src/base/uvm_common_phases.svh	/^class uvm_end_of_elaboration_phase extends uvm_bottomup_phase;$/;"	c
 uvm_end_of_elaboration_phase	src/base/uvm_domain.svh	/^typedef class uvm_end_of_elaboration_phase;$/;"	e
+uvm_end_package	src/macros/uvm_deprecated_defines.svh	/^`define uvm_end_package \\$/;"	d
 uvm_enum_wrapper	src/base/uvm_globals.svh	/^class uvm_enum_wrapper#(type T=uvm_active_passive_enum);$/;"	c
 uvm_env	src/base/uvm_report_object.svh	/^typedef class uvm_env;$/;"	e
 uvm_env	src/comps/uvm_env.svh	/^virtual class uvm_env extends uvm_component;$/;"	c
+uvm_error	src/macros/uvm_message_defines.svh	/^`define uvm_error(ID, MSG) \\$/;"	d
+uvm_error_begin	src/macros/uvm_message_defines.svh	/^`define uvm_error_begin(ID, MSG, RM = __uvm_msg) \\$/;"	d
+uvm_error_context	src/macros/uvm_message_defines.svh	/^`define uvm_error_context(ID, MSG, RO) \\$/;"	d
+uvm_error_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_error_context_begin(ID, MSG, RO, RM = __uvm_msg) \\$/;"	d
+uvm_error_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_error_context_end \\$/;"	d
+uvm_error_end	src/macros/uvm_message_defines.svh	/^`define uvm_error_end \\$/;"	d
 uvm_event	src/base/uvm_event.svh	/^class uvm_event#(type T=uvm_object) extends uvm_event_base;$/;"	c
 uvm_event	src/base/uvm_event_callback.svh	/^typedef class uvm_event;$/;"	e
 uvm_event	src/base/uvm_pool.svh	/^typedef class uvm_event;$/;"	e
@@ -3142,19 +2953,139 @@ uvm_factory	src/base/uvm_misc.svh	/^typedef class uvm_factory;$/;"	e
 uvm_factory_override	src/base/uvm_factory.svh	/^class uvm_factory_override;$/;"	c
 uvm_factory_override	src/base/uvm_factory.svh	/^typedef class uvm_factory_override;$/;"	e
 uvm_factory_queue_class	src/base/uvm_factory.svh	/^class uvm_factory_queue_class;$/;"	c
+uvm_fatal	src/macros/uvm_message_defines.svh	/^`define uvm_fatal(ID, MSG) \\$/;"	d
+uvm_fatal_begin	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_begin(ID, MSG, RM = __uvm_msg) \\$/;"	d
+uvm_fatal_context	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_context(ID, MSG, RO) \\$/;"	d
+uvm_fatal_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_context_begin(ID, MSG, RO, RM = __uvm_msg) \\$/;"	d
+uvm_fatal_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_context_end \\$/;"	d
+uvm_fatal_end	src/macros/uvm_message_defines.svh	/^`define uvm_fatal_end \\$/;"	d
+uvm_field_aa_int_byte	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_byte(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_byte	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_byte(ARG, FLAG)$/;"	d
+uvm_field_aa_int_byte_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_byte_unsigned(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_byte_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_byte_unsigned(ARG, FLAG)$/;"	d
+uvm_field_aa_int_enumkey	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_enumkey(KEY, ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_int(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_int(ARG, FLAG)$/;"	d
+uvm_field_aa_int_int_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_int_unsigned(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_int_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_int_unsigned(ARG, FLAG)$/;"	d
+uvm_field_aa_int_integer	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_integer(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_integer	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_integer(ARG, FLAG)$/;"	d
+uvm_field_aa_int_integer_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_integer_unsigned(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_integer_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_integer_unsigned(ARG, FLAG)$/;"	d
+uvm_field_aa_int_key	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_key(KEY, ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_key	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_key(KEY, ARG, FLAG)$/;"	d
+uvm_field_aa_int_longint	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_longint(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_longint	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_longint(ARG, FLAG)$/;"	d
+uvm_field_aa_int_longint_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_longint_unsigned(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_longint_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_longint_unsigned(ARG, FLAG)$/;"	d
+uvm_field_aa_int_shortint	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_shortint(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_shortint	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_shortint(ARG, FLAG)$/;"	d
+uvm_field_aa_int_shortint_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_shortint_unsigned(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_shortint_unsigned	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_shortint_unsigned(ARG, FLAG)$/;"	d
+uvm_field_aa_int_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_string(ARG, FLAG) \\$/;"	d
+uvm_field_aa_int_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_int_string(ARG, FLAG)$/;"	d
+uvm_field_aa_object_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_object_int(ARG, FLAG) \\$/;"	d
+uvm_field_aa_object_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_object_int(ARG, FLAG)$/;"	d
+uvm_field_aa_object_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_object_string(ARG, FLAG) \\$/;"	d
+uvm_field_aa_object_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_object_string(ARG, FLAG)$/;"	d
+uvm_field_aa_string_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_string_int(ARG, FLAG)$/;"	d
+uvm_field_aa_string_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_string_string(ARG, FLAG) \\$/;"	d
+uvm_field_aa_string_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_aa_string_string(ARG, FLAG)$/;"	d
+uvm_field_array_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_enum(ARG,FLAG)$/;"	d
+uvm_field_array_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_enum(T,ARG,FLAG) \\$/;"	d
+uvm_field_array_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_int(ARG,FLAG) \\$/;"	d
+uvm_field_array_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_int(ARG,FLAG)$/;"	d
+uvm_field_array_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_object(ARG,FLAG) \\$/;"	d
+uvm_field_array_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_object(ARG,FLAG)$/;"	d
+uvm_field_array_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_string(ARG,FLAG) \\$/;"	d
+uvm_field_array_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_array_string(ARG,FLAG)$/;"	d
+uvm_field_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_enum(T,ARG,FLAG) \\$/;"	d
+uvm_field_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_enum(T,ARG,FLAG)$/;"	d
+uvm_field_event	src/macros/uvm_object_defines.svh	/^`define uvm_field_event(ARG,FLAG) \\$/;"	d
+uvm_field_event	src/macros/uvm_object_defines.svh	/^`define uvm_field_event(ARG,FLAG)$/;"	d
+uvm_field_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_int(ARG,FLAG) \\$/;"	d
+uvm_field_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_int(ARG,FLAG)$/;"	d
+uvm_field_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_object(ARG,FLAG) \\$/;"	d
+uvm_field_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_object(ARG,FLAG)$/;"	d
+uvm_field_queue_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_enum(ARG,FLAG)$/;"	d
+uvm_field_queue_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_enum(T,ARG,FLAG) \\$/;"	d
+uvm_field_queue_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_int(ARG,FLAG) \\$/;"	d
+uvm_field_queue_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_int(ARG,FLAG)$/;"	d
+uvm_field_queue_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_object(ARG,FLAG) \\$/;"	d
+uvm_field_queue_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_object(ARG,FLAG)$/;"	d
+uvm_field_queue_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_string(ARG,FLAG) \\$/;"	d
+uvm_field_queue_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_queue_string(ARG,FLAG)$/;"	d
+uvm_field_real	src/macros/uvm_object_defines.svh	/^`define uvm_field_real(ARG,FLAG) \\$/;"	d
+uvm_field_real	src/macros/uvm_object_defines.svh	/^`define uvm_field_real(ARG,FLAG)$/;"	d
+uvm_field_sarray_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_enum(ARG,FLAG)$/;"	d
+uvm_field_sarray_enum	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_enum(T,ARG,FLAG) \\$/;"	d
+uvm_field_sarray_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_int(ARG,FLAG) \\$/;"	d
+uvm_field_sarray_int	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_int(ARG,FLAG)$/;"	d
+uvm_field_sarray_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_object(ARG,FLAG) \\$/;"	d
+uvm_field_sarray_object	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_object(ARG,FLAG)$/;"	d
+uvm_field_sarray_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_string(ARG,FLAG) \\$/;"	d
+uvm_field_sarray_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_sarray_string(ARG,FLAG)$/;"	d
+uvm_field_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_string(ARG,FLAG) \\$/;"	d
+uvm_field_string	src/macros/uvm_object_defines.svh	/^`define uvm_field_string(ARG,FLAG)$/;"	d
+uvm_field_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_field_utils_begin(T) $/;"	d
+uvm_field_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_field_utils_begin(T) \\$/;"	d
+uvm_field_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_field_utils_end $/;"	d
+uvm_field_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_field_utils_end \\$/;"	d
+uvm_file	src/macros/uvm_message_defines.svh	/^`define uvm_file ""$/;"	d
+uvm_file	src/macros/uvm_message_defines.svh	/^`define uvm_file `__FILE__$/;"	d
 uvm_final_phase	src/base/uvm_common_phases.svh	/^class uvm_final_phase extends uvm_topdown_phase;$/;"	c
 uvm_final_phase	src/base/uvm_domain.svh	/^typedef class uvm_final_phase;$/;"	e
 uvm_get_export	src/tlm1/uvm_exports.svh	/^class uvm_get_export #(type T=int)$/;"	c
 uvm_get_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_get_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_get_imp	src/tlm1/uvm_imps.svh	/^class uvm_get_imp #(type T=int, type IMP=int)$/;"	c
+uvm_get_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_get_imp_decl(SFX) \\$/;"	d
 uvm_get_peek_export	src/tlm1/uvm_exports.svh	/^class uvm_get_peek_export #(type T=int)$/;"	c
 uvm_get_peek_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_get_peek_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_get_peek_imp	src/tlm1/uvm_imps.svh	/^class uvm_get_peek_imp #(type T=int, type IMP=int)$/;"	c
+uvm_get_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_get_peek_imp_decl(SFX) \\$/;"	d
 uvm_get_peek_port	src/tlm1/uvm_ports.svh	/^class uvm_get_peek_port #(type T=int)$/;"	c
 uvm_get_port	src/tlm1/uvm_ports.svh	/^class uvm_get_port #(type T=int)$/;"	c
 uvm_get_to_lock_dap	src/dap/uvm_get_to_lock_dap.svh	/^class uvm_get_to_lock_dap#(type T=int) extends uvm_set_get_dap_base#(T);$/;"	c
+uvm_glob_to_re	src/dpi/uvm_regex.cc	/^const char * uvm_glob_to_re(const char *glob)$/;"	f
+uvm_hdl_btoi	src/dpi/uvm_hdl_vcs.c	/^long int uvm_hdl_btoi(char *binVal) {$/;"	f
+uvm_hdl_check_path	src/dpi/uvm_hdl_inca.c	/^int uvm_hdl_check_path(char *path)$/;"	f
+uvm_hdl_check_path	src/dpi/uvm_hdl_questa.c	/^int uvm_hdl_check_path(char *path)$/;"	f
+uvm_hdl_check_path	src/dpi/uvm_hdl_vcs.c	/^int uvm_hdl_check_path(char *path)$/;"	f
 uvm_hdl_data_t	src/dpi/uvm_hdl.svh	/^typedef logic [UVM_HDL_MAX_WIDTH-1:0] uvm_hdl_data_t;$/;"	e
+uvm_hdl_deposit	src/dpi/uvm_hdl_inca.c	/^int uvm_hdl_deposit(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_deposit	src/dpi/uvm_hdl_questa.c	/^int uvm_hdl_deposit(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_deposit	src/dpi/uvm_hdl_vcs.c	/^int uvm_hdl_deposit(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_dtob	src/dpi/uvm_hdl_vcs.c	/^char *uvm_hdl_dtob(long int decimalNumber) {$/;"	f
+uvm_hdl_force	src/dpi/uvm_hdl_inca.c	/^int uvm_hdl_force(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_force	src/dpi/uvm_hdl_questa.c	/^int uvm_hdl_force(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_force	src/dpi/uvm_hdl_vcs.c	/^int uvm_hdl_force(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_get_mhdl	src/dpi/uvm_hdl_vcs.c	/^int uvm_hdl_get_mhdl(char *path, p_vpi_vecval value) {$/;"	f
+uvm_hdl_get_vhdl	src/dpi/uvm_hdl_inca.c	/^static int uvm_hdl_get_vhdl(char* path, p_vpi_vecval value)$/;"	f	file:
+uvm_hdl_get_vlog	src/dpi/uvm_hdl_inca.c	/^static int uvm_hdl_get_vlog(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_get_vlog	src/dpi/uvm_hdl_questa.c	/^static int uvm_hdl_get_vlog(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_get_vlog	src/dpi/uvm_hdl_vcs.c	/^static int uvm_hdl_get_vlog(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_get_vlog_partsel	src/dpi/uvm_hdl_inca.c	/^static int uvm_hdl_get_vlog_partsel(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_get_vlog_partsel	src/dpi/uvm_hdl_questa.c	/^static int uvm_hdl_get_vlog_partsel(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_max_width	src/dpi/uvm_hdl_inca.c	/^static int uvm_hdl_max_width()$/;"	f	file:
+uvm_hdl_max_width	src/dpi/uvm_hdl_questa.c	/^static int uvm_hdl_max_width()$/;"	f	file:
+uvm_hdl_max_width	src/dpi/uvm_hdl_vcs.c	/^static int uvm_hdl_max_width()$/;"	f	file:
 uvm_hdl_path_concat	src/reg/uvm_reg_model.svh	/^class uvm_hdl_path_concat;$/;"	c
+uvm_hdl_read	src/dpi/uvm_hdl_inca.c	/^int uvm_hdl_read(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_read	src/dpi/uvm_hdl_questa.c	/^int uvm_hdl_read(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_read	src/dpi/uvm_hdl_vcs.c	/^int uvm_hdl_read(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_release	src/dpi/uvm_hdl_inca.c	/^int uvm_hdl_release(char *path)$/;"	f
+uvm_hdl_release	src/dpi/uvm_hdl_questa.c	/^int uvm_hdl_release(char *path)$/;"	f
+uvm_hdl_release	src/dpi/uvm_hdl_vcs.c	/^int uvm_hdl_release(char *path)$/;"	f
+uvm_hdl_release_and_read	src/dpi/uvm_hdl_inca.c	/^int uvm_hdl_release_and_read(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_release_and_read	src/dpi/uvm_hdl_questa.c	/^int uvm_hdl_release_and_read(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_release_and_read	src/dpi/uvm_hdl_vcs.c	/^int uvm_hdl_release_and_read(char *path, p_vpi_vecval value)$/;"	f
+uvm_hdl_set_mhdl	src/dpi/uvm_hdl_vcs.c	/^int uvm_hdl_set_mhdl(char *path, p_vpi_vecval value, mhpiPutValueFlagsT flags) $/;"	f
+uvm_hdl_set_vhdl	src/dpi/uvm_hdl_inca.c	/^static int uvm_hdl_set_vhdl(char* path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_set_vlog	src/dpi/uvm_hdl_inca.c	/^static int uvm_hdl_set_vlog(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_set_vlog	src/dpi/uvm_hdl_questa.c	/^static int uvm_hdl_set_vlog(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_set_vlog	src/dpi/uvm_hdl_vcs.c	/^static int uvm_hdl_set_vlog(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_set_vlog_partsel	src/dpi/uvm_hdl_inca.c	/^static int uvm_hdl_set_vlog_partsel(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
+uvm_hdl_set_vlog_partsel	src/dpi/uvm_hdl_questa.c	/^static int uvm_hdl_set_vlog_partsel(char *path, p_vpi_vecval value, PLI_INT32 flag)$/;"	f	file:
 uvm_heartbeat	src/base/uvm_heartbeat.svh	/^class uvm_heartbeat extends uvm_object;$/;"	c
 uvm_heartbeat_callback	src/base/uvm_heartbeat.svh	/^class uvm_heartbeat_callback extends uvm_objection_callback;$/;"	c
 uvm_heartbeat_callback	src/base/uvm_heartbeat.svh	/^typedef class uvm_heartbeat_callback;$/;"	e
@@ -3165,8 +3096,16 @@ uvm_id_verbosities_array	src/base/uvm_report_handler.svh	/^typedef uvm_pool#(str
 uvm_in_order_built_in_comparator	src/comps/uvm_in_order_comparator.svh	/^class uvm_in_order_built_in_comparator #(type T=int)$/;"	c
 uvm_in_order_class_comparator	src/comps/uvm_in_order_comparator.svh	/^class uvm_in_order_class_comparator #( type T = int )$/;"	c
 uvm_in_order_comparator	src/comps/uvm_in_order_comparator.svh	/^class uvm_in_order_comparator $/;"	c
+uvm_info	src/macros/uvm_message_defines.svh	/^`define uvm_info(ID, MSG, VERBOSITY) \\$/;"	d
+uvm_info_begin	src/macros/uvm_message_defines.svh	/^`define uvm_info_begin(ID, MSG, VERBOSITY, RM = __uvm_msg) \\$/;"	d
+uvm_info_context	src/macros/uvm_message_defines.svh	/^`define uvm_info_context(ID, MSG, VERBOSITY, RO) \\$/;"	d
+uvm_info_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_info_context_begin(ID, MSG, VERBOSITY, RO, RM = __uvm_msg) \\$/;"	d
+uvm_info_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_info_context_end \\$/;"	d
+uvm_info_end	src/macros/uvm_message_defines.svh	/^`define uvm_info_end \\$/;"	d
 uvm_int_rsrc	src/base/uvm_resource_specializations.svh	/^class uvm_int_rsrc extends uvm_resource #(int);$/;"	c
 uvm_integral_t	src/base/uvm_object_globals.svh	/^typedef logic signed [63:0] uvm_integral_t;$/;"	e
+uvm_line	src/macros/uvm_message_defines.svh	/^`define uvm_line 0$/;"	d
+uvm_line	src/macros/uvm_message_defines.svh	/^`define uvm_line `__LINE__$/;"	d
 uvm_line_printer	src/base/uvm_object_globals.svh	/^typedef class uvm_line_printer;$/;"	e
 uvm_line_printer	src/base/uvm_printer.svh	/^class uvm_line_printer extends uvm_tree_printer;$/;"	c
 uvm_link_base	src/base/uvm_links.svh	/^virtual class uvm_link_base extends uvm_object;$/;"	c
@@ -3176,6 +3115,7 @@ uvm_main_phase	src/base/uvm_runtime_phases.svh	/^class uvm_main_phase extends uv
 uvm_master_export	src/tlm1/uvm_exports.svh	/^class uvm_master_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_master_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_master_imp``SFX #(type REQ=int, type RSP=int, type IMP=int, \\$/;"	c
 uvm_master_imp	src/tlm1/uvm_imps.svh	/^class uvm_master_imp #(type REQ=int, type RSP=REQ, type IMP=int,$/;"	c
+uvm_master_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_master_imp_decl(SFX) \\$/;"	d
 uvm_master_port	src/tlm1/uvm_ports.svh	/^class uvm_master_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_mem	src/reg/uvm_mem.svh	/^class uvm_mem extends uvm_object;$/;"	c
 uvm_mem	src/reg/uvm_mem_mam.svh	/^typedef class uvm_mem;$/;"	e
@@ -3198,42 +3138,70 @@ uvm_mem_shared_access_seq	src/reg/sequences/uvm_reg_mem_shared_access_seq.svh	/^
 uvm_mem_single_access_seq	src/reg/sequences/uvm_mem_access_seq.svh	/^class uvm_mem_single_access_seq extends uvm_reg_sequence #(uvm_sequence #(uvm_reg_item));$/;"	c
 uvm_mem_single_walk_seq	src/reg/sequences/uvm_mem_walk_seq.svh	/^class uvm_mem_single_walk_seq extends uvm_reg_sequence #(uvm_sequence #(uvm_reg_item));$/;"	c
 uvm_mem_walk_seq	src/reg/sequences/uvm_mem_walk_seq.svh	/^class uvm_mem_walk_seq extends uvm_reg_sequence #(uvm_sequence #(uvm_reg_item));$/;"	c
+uvm_message_add_int	src/macros/uvm_message_defines.svh	/^`define uvm_message_add_int(VAR, RADIX, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD)) \\$/;"	d
+uvm_message_add_object	src/macros/uvm_message_defines.svh	/^`define uvm_message_add_object(VAR, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD)) \\$/;"	d
+uvm_message_add_string	src/macros/uvm_message_defines.svh	/^`define uvm_message_add_string(VAR, LABEL="", ACTION=(UVM_LOG|UVM_RM_RECORD)) \\$/;"	d
+uvm_message_add_tag	src/macros/uvm_message_defines.svh	/^`define uvm_message_add_tag(NAME, VALUE, ACTION=(UVM_LOG|UVM_RM_RECORD)) \\$/;"	d
+uvm_message_begin	src/macros/uvm_message_defines.svh	/^`define uvm_message_begin(SEVERITY, ID, MSG, VERBOSITY, FILE, LINE, RM) \\$/;"	d
+uvm_message_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_message_context_begin(SEVERITY, ID, MSG, VERBOSITY, FILE, LINE, RO, RM) \\$/;"	d
+uvm_message_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_message_context_end \\$/;"	d
+uvm_message_end	src/macros/uvm_message_defines.svh	/^`define uvm_message_end \\$/;"	d
 uvm_monitor	src/comps/uvm_monitor.svh	/^virtual class uvm_monitor extends uvm_component;$/;"	c
+uvm_new_func	src/macros/uvm_object_defines.svh	/^`define uvm_new_func \\$/;"	d
+uvm_non_blocking_transport_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_non_blocking_transport_imp_decl(SFX) \\$/;"	d
 uvm_nonblocking_get_export	src/tlm1/uvm_exports.svh	/^class uvm_nonblocking_get_export #(type T=int)$/;"	c
 uvm_nonblocking_get_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_nonblocking_get_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_nonblocking_get_imp	src/tlm1/uvm_imps.svh	/^class uvm_nonblocking_get_imp #(type T=int, type IMP=int)$/;"	c
+uvm_nonblocking_get_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_get_imp_decl(SFX) \\$/;"	d
 uvm_nonblocking_get_peek_export	src/tlm1/uvm_exports.svh	/^class uvm_nonblocking_get_peek_export #(type T=int)$/;"	c
 uvm_nonblocking_get_peek_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_nonblocking_get_peek_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_nonblocking_get_peek_imp	src/tlm1/uvm_imps.svh	/^class uvm_nonblocking_get_peek_imp #(type T=int, type IMP=int)$/;"	c
+uvm_nonblocking_get_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_get_peek_imp_decl(SFX) \\$/;"	d
 uvm_nonblocking_get_peek_port	src/tlm1/uvm_ports.svh	/^class uvm_nonblocking_get_peek_port #(type T=int)$/;"	c
 uvm_nonblocking_get_port	src/tlm1/uvm_ports.svh	/^class uvm_nonblocking_get_port #(type T=int)$/;"	c
 uvm_nonblocking_master_export	src/tlm1/uvm_exports.svh	/^class uvm_nonblocking_master_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_nonblocking_master_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_nonblocking_master_imp``SFX #(type REQ=int, type RSP=int, type IMP=int, \\$/;"	c
 uvm_nonblocking_master_imp	src/tlm1/uvm_imps.svh	/^class uvm_nonblocking_master_imp #(type REQ=int, type RSP=REQ, type IMP=int,$/;"	c
+uvm_nonblocking_master_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_master_imp_decl(SFX) \\$/;"	d
 uvm_nonblocking_master_port	src/tlm1/uvm_ports.svh	/^class uvm_nonblocking_master_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_nonblocking_peek_export	src/tlm1/uvm_exports.svh	/^class uvm_nonblocking_peek_export #(type T=int)$/;"	c
 uvm_nonblocking_peek_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_nonblocking_peek_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_nonblocking_peek_imp	src/tlm1/uvm_imps.svh	/^class uvm_nonblocking_peek_imp #(type T=int, type IMP=int)$/;"	c
+uvm_nonblocking_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_peek_imp_decl(SFX) \\$/;"	d
 uvm_nonblocking_peek_port	src/tlm1/uvm_ports.svh	/^class uvm_nonblocking_peek_port #(type T=int)$/;"	c
 uvm_nonblocking_put_export	src/tlm1/uvm_exports.svh	/^class uvm_nonblocking_put_export #(type T=int)$/;"	c
 uvm_nonblocking_put_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_nonblocking_put_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_nonblocking_put_imp	src/tlm1/uvm_imps.svh	/^class uvm_nonblocking_put_imp #(type T=int, type IMP=int)$/;"	c
+uvm_nonblocking_put_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_put_imp_decl(SFX) \\$/;"	d
 uvm_nonblocking_put_port	src/tlm1/uvm_ports.svh	/^class uvm_nonblocking_put_port #(type T=int)$/;"	c
 uvm_nonblocking_slave_export	src/tlm1/uvm_exports.svh	/^class uvm_nonblocking_slave_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_nonblocking_slave_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_nonblocking_slave_imp``SFX #(type REQ=int, type RSP=int, type IMP=int, \\$/;"	c
 uvm_nonblocking_slave_imp	src/tlm1/uvm_imps.svh	/^class uvm_nonblocking_slave_imp #(type REQ=int, type RSP=REQ, type IMP=int,$/;"	c
+uvm_nonblocking_slave_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_slave_imp_decl(SFX) \\$/;"	d
 uvm_nonblocking_slave_port	src/tlm1/uvm_ports.svh	/^class uvm_nonblocking_slave_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_nonblocking_transport_export	src/tlm1/uvm_exports.svh	/^class uvm_nonblocking_transport_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_nonblocking_transport_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_nonblocking_transport_imp``SFX #(type REQ=int, type RSP=int, type IMP=int) \\$/;"	c
 uvm_nonblocking_transport_imp	src/tlm1/uvm_imps.svh	/^class uvm_nonblocking_transport_imp #(type REQ=int, type RSP=REQ, type IMP=int)$/;"	c
+uvm_nonblocking_transport_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_nonblocking_transport_imp_decl(SFX) \\$/;"	d
 uvm_nonblocking_transport_port	src/tlm1/uvm_ports.svh	/^class uvm_nonblocking_transport_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_obj_rsrc	src/base/uvm_resource_specializations.svh	/^class uvm_obj_rsrc extends uvm_resource #(uvm_object);$/;"	c
 uvm_object	src/base/uvm_event_callback.svh	/^typedef class uvm_object;$/;"	e
 uvm_object	src/base/uvm_factory.svh	/^typedef class uvm_object;$/;"	e
 uvm_object	src/base/uvm_misc.svh	/^typedef class uvm_object;$/;"	e
 uvm_object	src/base/uvm_object.svh	/^virtual class uvm_object extends uvm_void;$/;"	c
+uvm_object_param_utils	src/macros/uvm_object_defines.svh	/^`define uvm_object_param_utils(T) $/;"	d
+uvm_object_param_utils	src/macros/uvm_object_defines.svh	/^`define uvm_object_param_utils(T) \\$/;"	d
+uvm_object_param_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_object_param_utils_begin(T) $/;"	d
+uvm_object_param_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_object_param_utils_begin(T) \\$/;"	d
 uvm_object_registry	src/base/uvm_registry.svh	/^class uvm_object_registry #(type T=uvm_object, string Tname="<unknown>")$/;"	c
+uvm_object_registry	src/macros/uvm_object_defines.svh	/^`define uvm_object_registry(T,S) \\$/;"	d
 uvm_object_string_pool	src/base/uvm_pool.svh	/^class uvm_object_string_pool #(type T=uvm_object) extends uvm_pool #(string,T);$/;"	c
+uvm_object_utils	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils(T) $/;"	d
+uvm_object_utils	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils(T) \\$/;"	d
+uvm_object_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils_begin(T) $/;"	d
+uvm_object_utils_begin	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils_begin(T) \\$/;"	d
+uvm_object_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils_end \\$/;"	d
+uvm_object_utils_end	src/macros/uvm_object_defines.svh	/^`define uvm_object_utils_end$/;"	d
 uvm_object_wrapper	src/base/uvm_factory.svh	/^typedef class uvm_object_wrapper;$/;"	e
 uvm_object_wrapper	src/base/uvm_factory.svh	/^virtual class uvm_object_wrapper;$/;"	c
 uvm_object_wrapper	src/base/uvm_object.svh	/^typedef class uvm_object_wrapper;$/;"	e
@@ -3248,7 +3216,22 @@ uvm_objection_cbs_t	src/base/uvm_objection.svh	/^typedef uvm_callbacks #(uvm_obj
 uvm_objection_context_object	src/base/uvm_objection.svh	/^class uvm_objection_context_object;$/;"	c
 uvm_objection_context_object	src/base/uvm_objection.svh	/^typedef class uvm_objection_context_object;$/;"	e
 uvm_objection_events	src/base/uvm_objection.svh	/^class uvm_objection_events;$/;"	c
+uvm_pack_array	src/macros/uvm_object_defines.svh	/^`define uvm_pack_array(VAR) \\$/;"	d
+uvm_pack_arrayN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_arrayN(VAR,SIZE) \\$/;"	d
 uvm_pack_bitstream_t	src/base/uvm_packer.svh	/^typedef bit signed [(`UVM_PACKER_MAX_BYTES*8)-1:0] uvm_pack_bitstream_t;$/;"	e
+uvm_pack_enum	src/macros/uvm_object_defines.svh	/^`define uvm_pack_enum(VAR) \\$/;"	d
+uvm_pack_enumN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_enumN(VAR,SIZE) \\$/;"	d
+uvm_pack_int	src/macros/uvm_object_defines.svh	/^`define uvm_pack_int(VAR) \\$/;"	d
+uvm_pack_intN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_intN(VAR,SIZE) \\$/;"	d
+uvm_pack_queue	src/macros/uvm_object_defines.svh	/^`define uvm_pack_queue(VAR) \\$/;"	d
+uvm_pack_queueN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_queueN(VAR,SIZE) \\$/;"	d
+uvm_pack_real	src/macros/uvm_object_defines.svh	/^`define uvm_pack_real(VAR) \\$/;"	d
+uvm_pack_sarray	src/macros/uvm_object_defines.svh	/^`define uvm_pack_sarray(VAR)  \\$/;"	d
+uvm_pack_sarrayN	src/macros/uvm_object_defines.svh	/^`define uvm_pack_sarrayN(VAR,SIZE) \\$/;"	d
+uvm_pack_string	src/macros/uvm_object_defines.svh	/^`define uvm_pack_string(VAR) \\$/;"	d
+uvm_package	src/macros/uvm_deprecated_defines.svh	/^`define uvm_package(PKG) \\$/;"	d
+uvm_package_scope_name	src/dpi/uvm_common.c	/^const static char* uvm_package_scope_name = "uvm_pkg";$/;"	v	file:
+uvm_package_scope_name	src/dpi/uvm_common.c	/^const static char* uvm_package_scope_name = "uvm_pkg::";$/;"	v	file:
 uvm_packer	src/base/uvm_object_globals.svh	/^typedef class uvm_packer;$/;"	e
 uvm_packer	src/base/uvm_packer.svh	/^class uvm_packer;$/;"	c
 uvm_parent_child_link	src/base/uvm_links.svh	/^class uvm_parent_child_link extends uvm_link_base;$/;"	c
@@ -3256,6 +3239,7 @@ uvm_parent_child_link	src/base/uvm_transaction.svh	/^typedef class uvm_parent_ch
 uvm_peek_export	src/tlm1/uvm_exports.svh	/^class uvm_peek_export #(type T=int)$/;"	c
 uvm_peek_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_peek_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_peek_imp	src/tlm1/uvm_imps.svh	/^class uvm_peek_imp #(type T=int, type IMP=int)$/;"	c
+uvm_peek_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_peek_imp_decl(SFX) \\$/;"	d
 uvm_peek_port	src/tlm1/uvm_ports.svh	/^class uvm_peek_port #(type T=int)$/;"	c
 uvm_phase	src/base/uvm_config_db.svh	/^typedef class uvm_phase;$/;"	e
 uvm_phase	src/base/uvm_phase.svh	/^class uvm_phase extends uvm_object;$/;"	c
@@ -3285,6 +3269,43 @@ uvm_pre_reset_phase	src/base/uvm_runtime_phases.svh	/^class uvm_pre_reset_phase 
 uvm_pre_shutdown_phase	src/base/uvm_domain.svh	/^typedef class uvm_pre_shutdown_phase;$/;"	e
 uvm_pre_shutdown_phase	src/base/uvm_runtime_phases.svh	/^class uvm_pre_shutdown_phase extends uvm_task_phase; $/;"	c
 uvm_predict_s	src/reg/uvm_reg_predictor.svh	/^class uvm_predict_s;$/;"	c
+uvm_print_aa_int_key4	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_int_key4(KEY, F, R, P) \\$/;"	d
+uvm_print_aa_int_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_int_object(F,FLAG) \\$/;"	d
+uvm_print_aa_int_object3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_int_object3(F, P,FLAG) \\$/;"	d
+uvm_print_aa_string_int	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_int(F) \\$/;"	d
+uvm_print_aa_string_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_int3(F, R, P) \\$/;"	d
+uvm_print_aa_string_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_object(F,FLAG) \\$/;"	d
+uvm_print_aa_string_object3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_object3(F, P,FLAG) \\$/;"	d
+uvm_print_aa_string_string	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_string(F) \\$/;"	d
+uvm_print_aa_string_string2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_aa_string_string2(F, P) \\$/;"	d
+uvm_print_array_int	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_int(F, R) \\$/;"	d
+uvm_print_array_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_int3(F, R, P) \\$/;"	d
+uvm_print_array_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_object(F,FLAG) \\$/;"	d
+uvm_print_array_object3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_object3(F, P,FLAG) \\$/;"	d
+uvm_print_array_string	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_string(F) \\$/;"	d
+uvm_print_array_string2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_array_string2(F, P) \\$/;"	d
+uvm_print_enum	src/macros/uvm_printer_defines.svh	/^`define uvm_print_enum(T, F, NM, P) \\$/;"	d
+uvm_print_int	src/macros/uvm_printer_defines.svh	/^`define uvm_print_int(F, R) \\$/;"	d
+uvm_print_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_int3(F, R, P) \\$/;"	d
+uvm_print_int4	src/macros/uvm_printer_defines.svh	/^`define uvm_print_int4(F, R, NM, P) \\$/;"	d
+uvm_print_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object(F) \\$/;"	d
+uvm_print_object2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object2(F, P) \\$/;"	d
+uvm_print_object_qda4	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object_qda4(F, P, T,FLAG) \\$/;"	d
+uvm_print_object_queue	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object_queue(F,FLAG) \\$/;"	d
+uvm_print_object_queue3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_object_queue3(F, P,FLAG) \\$/;"	d
+uvm_print_qda_enum	src/macros/uvm_printer_defines.svh	/^`define uvm_print_qda_enum(F, P, T, ET) \\$/;"	d
+uvm_print_qda_int4	src/macros/uvm_printer_defines.svh	/^`define uvm_print_qda_int4(F, R, P, T) \\$/;"	d
+uvm_print_queue_int	src/macros/uvm_printer_defines.svh	/^`define uvm_print_queue_int(F, R) \\$/;"	d
+uvm_print_queue_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_queue_int3(F, R, P) \\$/;"	d
+uvm_print_sarray_int3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_sarray_int3(F, R, P) \\$/;"	d
+uvm_print_sarray_object	src/macros/uvm_printer_defines.svh	/^`define uvm_print_sarray_object(F,FLAG) \\$/;"	d
+uvm_print_sarray_object3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_sarray_object3(F, P,FLAG) \\$/;"	d
+uvm_print_sarray_string2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_sarray_string2(F, P) \\$/;"	d
+uvm_print_string	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string(F) \\$/;"	d
+uvm_print_string2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string2(F, P) \\$/;"	d
+uvm_print_string_qda3	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string_qda3(F, P, T) \\$/;"	d
+uvm_print_string_queue	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string_queue(F) \\$/;"	d
+uvm_print_string_queue2	src/macros/uvm_printer_defines.svh	/^`define uvm_print_string_queue2(F, P) \\$/;"	d
 uvm_printer	src/base/uvm_object_globals.svh	/^typedef class uvm_printer;$/;"	e
 uvm_printer	src/base/uvm_printer.svh	/^virtual class uvm_printer;$/;"	c
 uvm_printer_knobs	src/base/uvm_printer.svh	/^class uvm_printer_knobs;$/;"	c
@@ -3294,10 +3315,24 @@ uvm_push_sequencer	src/seq/uvm_push_sequencer.svh	/^class uvm_push_sequencer #(t
 uvm_put_export	src/tlm1/uvm_exports.svh	/^class uvm_put_export #(type T=int)$/;"	c
 uvm_put_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_put_imp``SFX #(type T=int, type IMP=int) \\$/;"	c
 uvm_put_imp	src/tlm1/uvm_imps.svh	/^class uvm_put_imp #(type T=int, type IMP=int)$/;"	c
+uvm_put_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_put_imp_decl(SFX) \\$/;"	d
 uvm_put_port	src/tlm1/uvm_ports.svh	/^class uvm_put_port #(type T=int)$/;"	c
 uvm_queue	src/base/uvm_queue.svh	/^class uvm_queue #(type T=int) extends uvm_object;$/;"	c
+uvm_rand_send	src/macros/uvm_sequence_defines.svh	/^`define uvm_rand_send(SEQ_OR_ITEM) \\$/;"	d
+uvm_rand_send_pri	src/macros/uvm_sequence_defines.svh	/^`define uvm_rand_send_pri(SEQ_OR_ITEM, PRIORITY) \\$/;"	d
+uvm_rand_send_pri_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_rand_send_pri_with(SEQ_OR_ITEM, PRIORITY, CONSTRAINTS) \\$/;"	d
+uvm_rand_send_with	src/macros/uvm_sequence_defines.svh	/^`define uvm_rand_send_with(SEQ_OR_ITEM, CONSTRAINTS) \\$/;"	d
 uvm_random_sequence	src/seq/uvm_sequence_builtin.svh	/^class uvm_random_sequence extends uvm_sequence #(uvm_sequence_item);$/;"	c
 uvm_random_stimulus	src/comps/uvm_random_stimulus.svh	/^class uvm_random_stimulus #(type T=uvm_transaction) extends uvm_component;$/;"	c
+uvm_re	src/dpi/uvm_regex.cc	/^static char uvm_re[UVM_REGEX_MAX_LENGTH+4];$/;"	v	file:
+uvm_re_bracket_char	src/dpi/uvm_regex.cc	/^const char uvm_re_bracket_char = '\/';$/;"	v
+uvm_re_match	src/dpi/uvm_regex.cc	/^int uvm_re_match(const char * re, const char *str)$/;"	f
+uvm_record_attribute	src/macros/uvm_object_defines.svh	/^    `define uvm_record_attribute(TR_HANDLE,NAME,VALUE) \\$/;"	d
+uvm_record_field	src/macros/uvm_object_defines.svh	/^`define uvm_record_field(NAME,VALUE) \\$/;"	d
+uvm_record_int	src/macros/uvm_object_defines.svh	/^  `define uvm_record_int(NAME,VALUE,SIZE,RADIX = UVM_NORADIX) \\$/;"	d
+uvm_record_real	src/macros/uvm_object_defines.svh	/^  `define uvm_record_real(NAME,VALUE) \\$/;"	d
+uvm_record_string	src/macros/uvm_object_defines.svh	/^  `define uvm_record_string(NAME,VALUE) \\$/;"	d
+uvm_record_time	src/macros/uvm_object_defines.svh	/^  `define uvm_record_time(NAME,VALUE) \\$/;"	d
 uvm_recorder	src/base/uvm_object_globals.svh	/^typedef class uvm_recorder;$/;"	e
 uvm_recorder	src/base/uvm_recorder.svh	/^virtual class uvm_recorder extends uvm_object;$/;"	c
 uvm_recorder	src/base/uvm_tr_database.svh	/^typedef class uvm_recorder;$/;"	e
@@ -3362,6 +3397,7 @@ uvm_reg_single_bit_bash_seq	src/reg/sequences/uvm_reg_bit_bash_seq.svh	/^class u
 uvm_reg_tlm_adapter	src/reg/uvm_reg_adapter.svh	/^class uvm_reg_tlm_adapter extends uvm_reg_adapter;$/;"	c
 uvm_reg_transaction_order_policy	src/reg/uvm_reg_map.svh	/^virtual class uvm_reg_transaction_order_policy extends uvm_object;$/;"	c
 uvm_reg_write_only_cbs	src/reg/uvm_reg_cbs.svh	/^class uvm_reg_write_only_cbs extends uvm_reg_cbs;$/;"	c
+uvm_register_cb	src/macros/uvm_callback_defines.svh	/^`define uvm_register_cb(T,CB) \\$/;"	d
 uvm_related_link	src/base/uvm_links.svh	/^class uvm_related_link extends uvm_link_base;$/;"	c
 uvm_report_catcher	src/base/uvm_report_catcher.svh	/^typedef class uvm_report_catcher;$/;"	e
 uvm_report_catcher	src/base/uvm_report_catcher.svh	/^virtual class uvm_report_catcher extends uvm_callback;$/;"	c
@@ -3413,6 +3449,8 @@ uvm_run_phase	src/base/uvm_domain.svh	/^typedef class uvm_run_phase;$/;"	e
 uvm_scope_stack	src/base/uvm_misc.svh	/^class uvm_scope_stack;$/;"	c
 uvm_scoreboard	src/comps/uvm_scoreboard.svh	/^virtual class uvm_scoreboard extends uvm_component;$/;"	c
 uvm_seed_map	src/base/uvm_misc.svh	/^class uvm_seed_map;$/;"	c
+uvm_send	src/macros/uvm_sequence_defines.svh	/^`define uvm_send(SEQ_OR_ITEM) \\$/;"	d
+uvm_send_pri	src/macros/uvm_sequence_defines.svh	/^`define uvm_send_pri(SEQ_OR_ITEM, PRIORITY) \\$/;"	d
 uvm_seq_item_pull_export	src/tlm1/uvm_sqr_connections.svh	/^class uvm_seq_item_pull_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_seq_item_pull_imp	src/tlm1/uvm_sqr_connections.svh	/^class uvm_seq_item_pull_imp #(type REQ=int, type RSP=REQ, type IMP=int)$/;"	c
 uvm_seq_item_pull_port	src/tlm1/uvm_sqr_connections.svh	/^class uvm_seq_item_pull_port #(type REQ=int, type RSP=REQ)$/;"	c
@@ -3427,19 +3465,30 @@ uvm_sequence_item	src/seq/uvm_sequence_item.svh	/^class uvm_sequence_item extend
 uvm_sequence_library	src/seq/uvm_sequence_library.svh	/^class uvm_sequence_library #(type REQ=uvm_sequence_item,RSP=REQ) extends uvm_sequence #(REQ,RSP);$/;"	c
 uvm_sequence_library_cfg	src/seq/uvm_sequence_library.svh	/^class uvm_sequence_library_cfg extends uvm_object;$/;"	c
 uvm_sequence_library_cfg	src/seq/uvm_sequence_library.svh	/^typedef class uvm_sequence_library_cfg;$/;"	e
+uvm_sequence_library_package	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequence_library_package(PKG_NAME) \\$/;"	d
+uvm_sequence_library_utils	src/macros/uvm_sequence_defines.svh	/^`define uvm_sequence_library_utils(TYPE) \\$/;"	d
 uvm_sequence_process_wrapper	src/seq/uvm_sequencer_base.svh	/^class uvm_sequence_process_wrapper;$/;"	c
 uvm_sequence_request	src/seq/uvm_sequencer_base.svh	/^class uvm_sequence_request;$/;"	c
 uvm_sequence_request	src/seq/uvm_sequencer_base.svh	/^typedef class uvm_sequence_request;$/;"	e
 uvm_sequence_state_enum	src/base/uvm_object_globals.svh	/^typedef uvm_sequence_state uvm_sequence_state_enum; \/\/ backward compat$/;"	e
+uvm_sequence_utils	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequence_utils(TYPE_NAME, SEQUENCER) \\$/;"	d
+uvm_sequence_utils_begin	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequence_utils_begin(TYPE_NAME, SEQUENCER) \\$/;"	d
+uvm_sequence_utils_end	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequence_utils_end \\$/;"	d
 uvm_sequencer	src/seq/uvm_sequencer.svh	/^class uvm_sequencer #(type REQ=uvm_sequence_item, RSP=REQ)$/;"	c
 uvm_sequencer_analysis_fifo	src/seq/uvm_sequencer_analysis_fifo.svh	/^class uvm_sequencer_analysis_fifo #(type RSP = uvm_sequence_item) extends uvm_tlm_fifo #(RSP);$/;"	c
 uvm_sequencer_base	src/base/uvm_phase.svh	/^typedef class uvm_sequencer_base;$/;"	e
 uvm_sequencer_base	src/seq/uvm_sequence_item.svh	/^typedef class uvm_sequencer_base;$/;"	e
 uvm_sequencer_base	src/seq/uvm_sequencer_base.svh	/^class uvm_sequencer_base extends uvm_component;$/;"	c
 uvm_sequencer_param_base	src/seq/uvm_sequencer_param_base.svh	/^class uvm_sequencer_param_base #(type REQ = uvm_sequence_item,$/;"	c
+uvm_sequencer_param_utils	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_param_utils(TYPE_NAME) \\$/;"	d
+uvm_sequencer_param_utils_begin	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_param_utils_begin(TYPE_NAME) \\$/;"	d
+uvm_sequencer_utils	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_utils(TYPE_NAME) \\$/;"	d
+uvm_sequencer_utils_begin	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_utils_begin(TYPE_NAME) \\$/;"	d
+uvm_sequencer_utils_end	src/macros/uvm_deprecated_defines.svh	/^`define uvm_sequencer_utils_end \\$/;"	d
 uvm_set_before_get_dap	src/base/uvm_tr_stream.svh	/^typedef class uvm_set_before_get_dap;$/;"	e
 uvm_set_before_get_dap	src/dap/uvm_set_before_get_dap.svh	/^class uvm_set_before_get_dap#(type T=int) extends uvm_set_get_dap_base#(T);$/;"	c
 uvm_set_get_dap_base	src/dap/uvm_set_get_dap_base.svh	/^virtual class uvm_set_get_dap_base#(type T=int) extends uvm_object;$/;"	c
+uvm_set_super_type	src/macros/uvm_callback_defines.svh	/^`define uvm_set_super_type(T,ST) \\$/;"	d
 uvm_sev_override_array	src/base/uvm_report_handler.svh	/^typedef uvm_pool#(uvm_severity, uvm_severity) uvm_sev_override_array;$/;"	e
 uvm_severity_type	src/base/uvm_object_globals.svh	/^typedef uvm_severity uvm_severity_type;$/;"	e
 uvm_shutdown_phase	src/base/uvm_domain.svh	/^typedef class uvm_shutdown_phase;$/;"	e
@@ -3450,6 +3499,7 @@ uvm_simple_sequence	src/seq/uvm_sequence_builtin.svh	/^class uvm_simple_sequence
 uvm_slave_export	src/tlm1/uvm_exports.svh	/^class uvm_slave_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_slave_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_slave_imp``SFX #(type REQ=int, type RSP=int, type IMP=int, \\$/;"	c
 uvm_slave_imp	src/tlm1/uvm_imps.svh	/^class uvm_slave_imp #(type REQ=int, type RSP=REQ, type IMP=int,$/;"	c
+uvm_slave_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_slave_imp_decl(SFX) \\$/;"	d
 uvm_slave_port	src/tlm1/uvm_ports.svh	/^class uvm_slave_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_spell_chkr	src/base/uvm_spell_chkr.svh	/^class uvm_spell_chkr #(type T=int);$/;"	c
 uvm_sqr_if_base	src/tlm1/uvm_sqr_ifs.svh	/^virtual class uvm_sqr_if_base #(type T1=uvm_object, T2=T1);$/;"	c
@@ -3528,6 +3578,7 @@ uvm_transaction	src/base/uvm_transaction.svh	/^virtual class uvm_transaction ext
 uvm_transport_export	src/tlm1/uvm_exports.svh	/^class uvm_transport_export #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_transport_imp	src/macros/uvm_tlm_defines.svh	/^class uvm_transport_imp``SFX #(type REQ=int, type RSP=int, type IMP=int) \\$/;"	c
 uvm_transport_imp	src/tlm1/uvm_imps.svh	/^class uvm_transport_imp #(type REQ=int, type RSP=REQ, type IMP=int)$/;"	c
+uvm_transport_imp_decl	src/macros/uvm_tlm_defines.svh	/^`define uvm_transport_imp_decl(SFX) \\$/;"	d
 uvm_transport_port	src/tlm1/uvm_ports.svh	/^class uvm_transport_port #(type REQ=int, type RSP=REQ)$/;"	c
 uvm_tree_printer	src/base/uvm_object_globals.svh	/^typedef class uvm_tree_printer;$/;"	e
 uvm_tree_printer	src/base/uvm_printer.svh	/^class uvm_tree_printer extends uvm_printer;$/;"	c
@@ -3535,6 +3586,25 @@ uvm_tree_printer_knobs	src/base/uvm_printer.svh	/^typedef uvm_printer_knobs uvm_
 uvm_typed_callbacks	src/base/uvm_callback.svh	/^class uvm_typed_callbacks#(type T=uvm_object) extends uvm_callbacks_base;$/;"	c
 uvm_typeid	src/base/uvm_callback.svh	/^class uvm_typeid#(type T=uvm_object) extends uvm_typeid_base;$/;"	c
 uvm_typeid_base	src/base/uvm_callback.svh	/^class uvm_typeid_base;$/;"	c
+uvm_typename	src/uvm_macros.svh	/^`define uvm_typename(X) $typename(X)$/;"	d
+uvm_typename	src/uvm_macros.svh	/^`define uvm_typename(X) $typename(X,39)$/;"	d
+uvm_unpack_array	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_array(VAR) \\$/;"	d
+uvm_unpack_arrayN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_arrayN(VAR,SIZE) \\$/;"	d
+uvm_unpack_enum	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_enum(VAR,TYPE) \\$/;"	d
+uvm_unpack_enumN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_enumN(VAR,SIZE,TYPE) \\$/;"	d
+uvm_unpack_int	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_int(VAR) \\$/;"	d
+uvm_unpack_intN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_intN(VAR,SIZE) \\$/;"	d
+uvm_unpack_queue	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_queue(VAR) \\$/;"	d
+uvm_unpack_queueN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_queueN(VAR,SIZE) \\$/;"	d
+uvm_unpack_real	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_real(VAR) \\$/;"	d
+uvm_unpack_sarray	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_sarray(VAR)  \\$/;"	d
+uvm_unpack_sarrayN	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_sarrayN(VAR,SIZE) \\$/;"	d
+uvm_unpack_string	src/macros/uvm_object_defines.svh	/^`define uvm_unpack_string(VAR) \\$/;"	d
+uvm_update_sequence_lib	src/macros/uvm_deprecated_defines.svh	/^`define uvm_update_sequence_lib \\$/;"	d
+uvm_update_sequence_lib_and_item	src/macros/uvm_deprecated_defines.svh	/^`define uvm_update_sequence_lib_and_item(USER_ITEM) \\$/;"	d
+uvm_user_bottomup_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_user_bottomup_phase(PHASE,COMP,PREFIX) \\$/;"	d
+uvm_user_task_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_user_task_phase(PHASE,COMP,PREFIX) \\$/;"	d
+uvm_user_topdown_phase	src/macros/uvm_phase_defines.svh	/^`define uvm_user_topdown_phase(PHASE,COMP,PREFIX) \\$/;"	d
 uvm_utils	src/base/uvm_misc.svh	/^class uvm_utils #(type TYPE=int, string FIELD="config");$/;"	c
 uvm_virtual_sequencer	src/seq/uvm_sequencer.svh	/^typedef uvm_sequencer #(uvm_sequence_item) uvm_virtual_sequencer;$/;"	e
 uvm_visitor	src/base/uvm_coreservice.svh	/^typedef class uvm_visitor;$/;"	e
@@ -3553,12 +3623,21 @@ uvm_vreg_field_cb	src/reg/uvm_vreg_field.svh	/^typedef uvm_callbacks#(uvm_vreg_f
 uvm_vreg_field_cb_iter	src/reg/uvm_vreg_field.svh	/^typedef uvm_callback_iter#(uvm_vreg_field, uvm_vreg_field_cbs) uvm_vreg_field_cb_iter;$/;"	e
 uvm_vreg_field_cbs	src/reg/uvm_vreg_field.svh	/^class uvm_vreg_field_cbs extends uvm_callback;$/;"	c
 uvm_vreg_field_cbs	src/reg/uvm_vreg_field.svh	/^typedef class uvm_vreg_field_cbs;$/;"	e
+uvm_warning	src/macros/uvm_message_defines.svh	/^`define uvm_warning(ID, MSG) \\$/;"	d
+uvm_warning_begin	src/macros/uvm_message_defines.svh	/^`define uvm_warning_begin(ID, MSG, RM = __uvm_msg) \\$/;"	d
+uvm_warning_context	src/macros/uvm_message_defines.svh	/^`define uvm_warning_context(ID, MSG, RO) \\$/;"	d
+uvm_warning_context_begin	src/macros/uvm_message_defines.svh	/^`define uvm_warning_context_begin(ID, MSG, RO, RM = __uvm_msg) \\$/;"	d
+uvm_warning_context_end	src/macros/uvm_message_defines.svh	/^`define uvm_warning_context_end \\$/;"	d
+uvm_warning_end	src/macros/uvm_message_defines.svh	/^`define uvm_warning_end \\$/;"	d
+vhpi2val	src/dpi/uvm_hdl_inca.c	/^static vhpiEnumT vhpi2val(int aval,int bval) {$/;"	f	file:
+vhpiEnumTLookup	src/dpi/uvm_hdl_inca.c	/^static vhpiEnumT vhpiEnumTLookup[4] = {vhpi0,vhpi1,vhpiZ,vhpiX}; \/\/ idx={b[0],a[0]}$/;"	v	file:
 wait_for_change	src/reg/uvm_reg_backdoor.svh	/^task uvm_reg_backdoor::wait_for_change(uvm_object element);$/;"	t
 wait_for_grant	src/seq/uvm_sequencer_base.svh	/^task uvm_sequencer_base::wait_for_grant(uvm_sequence_base sequence_ptr,$/;"	t
 wait_for_item_done	src/seq/uvm_sequencer_base.svh	/^task uvm_sequencer_base::wait_for_item_done(uvm_sequence_base sequence_ptr,$/;"	t
 wait_for_self_and_siblings_to_drop	src/base/uvm_phase.svh	/^task uvm_phase::wait_for_self_and_siblings_to_drop() ;$/;"	t
 wait_for_sequences	src/seq/uvm_sequencer_base.svh	/^task uvm_sequencer_base::wait_for_sequences();$/;"	t
 wait_for_state	src/base/uvm_phase.svh	/^task uvm_phase::wait_for_state(uvm_phase_state state, uvm_wait_op op=UVM_EQ);$/;"	t
+walk_level	src/dpi/uvm_svcmd_dpi.c	/^void walk_level(int lvl, int argc, char**argv,int cmd) {$/;"	f
 write	src/reg/uvm_mem.svh	/^task uvm_mem::write(output uvm_status_e      status,$/;"	t
 write	src/reg/uvm_mem_mam.svh	/^task uvm_mem_region::write(output uvm_status_e       status,$/;"	t
 write	src/reg/uvm_reg.svh	/^task uvm_reg::write(output uvm_status_e      status,$/;"	t
